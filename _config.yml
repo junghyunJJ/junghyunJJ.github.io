@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
 paginate: 10 # pagination based on number of posts
@@ -19,12 +20,12 @@ defaults:
 description: Stylish Jekyll Theme
 author:
   name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
+  email: junghyunjj219@gmail.com
+  github: junghyunJJ
+  twitter: junghyunjj
+  pinterest: junghyunjj
+  linkedin: junghyunjj
+  bio: Hi I'm JJ!
   email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml
@@ -38,3 +39,6 @@ BASE_PATH:
 
 plugins:
   - jekyll-paginate
+=======
+theme: jekyll-theme-minimal
+>>>>>>> 7400aaad578def5dda85ab9bdf8451f4c7012e13
