@@ -18,6 +18,8 @@ defaults:
       title: dbyll
 
 description: Stylish Jekyll Theme
+title: dbyll
+disqus: dbyll-ghost # disqus short name
 author:
   name: dbyll
   email: junghyun.jung@usc.edu
