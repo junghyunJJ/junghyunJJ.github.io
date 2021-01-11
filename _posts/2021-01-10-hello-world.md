@@ -7,7 +7,7 @@ fullview: true
 comments: true
 ---
 
-Hi My name is **Junghyun Jung**.
+Hi my name is **Junghyun Jung**.
 
 Here is my CV!
 
