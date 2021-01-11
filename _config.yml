@@ -7,7 +7,7 @@ highlighter: rouge
 markdown: kramdown
 disqus: dbyll
 google_analytics: dbyll
-title: dbyll
+title: Junghyun Jung
 
 defaults:
   -
@@ -19,7 +19,7 @@ defaults:
 description: Stylish Jekyll Theme
 author:
   name: Junghyun Jung
-  email: dbyll@ismaildemirbilek.com
+  email: junghyun.jung@usc.edu
   github: junghyunJJ
   twitter: junghyunjj
   pinterest: junghyunjj
