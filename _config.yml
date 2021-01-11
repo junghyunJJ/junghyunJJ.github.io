@@ -14,7 +14,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: Junghyun Jung
 
 description: Stylish Jekyll Theme
 author:
