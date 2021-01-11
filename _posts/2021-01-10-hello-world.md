@@ -8,5 +8,7 @@ comments: true
 ---
 
 Hi My name is **Junghyun Jung**.
+
 Here is my CV.
+
 <a class="btn btn-default" href="JJ_CV.pdf">Curriculum Vitae</a>
