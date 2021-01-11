@@ -7,14 +7,14 @@ highlighter: rouge
 markdown: kramdown
 disqus: dbyll
 google_analytics: dbyll
-title: Hello!
+title: Junghyun Jung
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: Junghyun Jung
+      title: Hello!
 
 description: Stylish Jekyll Theme
 author:
