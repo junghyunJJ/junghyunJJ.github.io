@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
 paginate: 10 # pagination based on number of posts
@@ -39,6 +38,3 @@ BASE_PATH:
 
 plugins:
   - jekyll-paginate
-=======
-theme: jekyll-theme-minimal
->>>>>>> 7400aaad578def5dda85ab9bdf8451f4c7012e13
