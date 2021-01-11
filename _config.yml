@@ -15,13 +15,11 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: Junghyun Jung
 
 description: Stylish Jekyll Theme
-title: dbyll
-disqus: dbyll-ghost # disqus short name
 author:
-  name: dbyll
+  name: Junghyun Jung
   email: junghyun.jung@usc.edu
   github: junghyunJJ
   twitter: junghyunjj
