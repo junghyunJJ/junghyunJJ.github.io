@@ -2,24 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Center for Genetic Epidemiology, Keck Medicine of USC
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: junghyun_jung.png
+  # address: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My name is Junghyun Jung. I'm currently a postdoctoral scholar in [Dr. Nicholas Mancuso's lab](https://www.mancusolab.com/) in the [Center for Genetic Epidemiology](https://keck.usc.edu/genetic-epidemiology-center/) at [Keck School of Medicine](https://www.keckmedicine.org/), [University of Southern California](https://www.usc.edu/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests include developing a computational method to infer genetic architecture and analyzing functional genomic data to elucidate the etiology of complex traits and diseases.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I received my Ph.D. in Life Science from [Dongguk University](https://www.dongguk.edu/eng/main) in Korea, where I studied integrative analysis using multi-omics data and method development for genomic data. While earning my Ph.D., I was advised by [Dr. Jong Wha (Joanne) Joo](https://github.com/DGU-CBLAB) and [Dr. Wonhee Jang](https://sites.google.com/view/dgu-janglab).
+
+I also was a postdoctoral scholar in [Dr. Serghei Mangul's lab](https://mangul-lab-usc.github.io/) at [USC School of Pharmacy](https://pharmacyschool.usc.edu/) and my work aimed to analyze GWAS and WES data related to COVID-19 and the benchmarking study for HLA callers.
+
+Please feel free to contact me through [email](mailto:junghyun.jung@usc.edu) if you have any questions.
