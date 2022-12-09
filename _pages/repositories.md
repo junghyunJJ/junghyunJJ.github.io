@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Welcome to my [GitHub](https://github.com/junghyunJJ)!
+description: Welcome to my GitHub!!
 nav: true
 nav_order: 3
 ---
