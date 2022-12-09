@@ -21,7 +21,7 @@ My name is Junghyun Jung. I'm currently a postdoctoral scholar in [Dr. Nicholas 
 
 My research interests include developing a computational method to infer genetic architecture and analyzing functional genomic data to elucidate the etiology of complex traits and diseases.
 
-I received my Ph.D. in Life Science from [Dongguk University](https://www.dongguk.edu/eng/main) in Korea, where I studied integrative analysis using multi-omics data and method development for genomic data. While earning my Ph.D., I was advised by [Dr. Jong Wha (Joanne) Joo](https://github.com/DGU-CBLAB) and [Dr. Wonhee Jang](https://sites.google.com/view/dgu-janglab).
+I received my Ph.D. in Life Science from [Dongguk University](https://www.dongguk.edu/eng/main) in Korea, where I studied integrative analysis using multi-omics data and method development for genomic data. While earning my Ph.D., I was advised by [Dr. Jong Wha (Joanne) Joo](https://cblab.yolasite.com/) and [Dr. Wonhee Jang](https://sites.google.com/view/dgu-janglab).
 
 I also was a postdoctoral scholar in [Dr. Serghei Mangul's lab](https://mangul-lab-usc.github.io/) at [USC School of Pharmacy](https://pharmacyschool.usc.edu/) and my work aimed to analyze GWAS and WES data related to COVID-19 and the benchmarking study for HLA callers.
 
