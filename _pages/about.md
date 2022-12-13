@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 My name is Junghyun Jung. I'm currently a postdoctoral scholar in [Dr. Nicholas Mancuso's lab](https://www.mancusolab.com/) in the [Center for Genetic Epidemiology](https://keck.usc.edu/genetic-epidemiology-center/) at [Keck School of Medicine](https://www.keckmedicine.org/), [University of Southern California](https://www.usc.edu/).
 
-My research interests include developing a computational method to infer natural selection in the evolutionary architecture of molecular phenotype, and analyzing multi-omics data to elucidate the etiology of complex traits.
+My research interests include developing a computational method to infer natural selection in the evolutionary architecture of molecular phenotype and analyzing multi-omics data to elucidate the etiology of complex traits.
  - Develop novel statistical methods using Variational Bayesian methods
  - Perform Transcriptome-wide association studies (TWAS) using GWAS summary statistic data with molecular QTL data
  - Analyze single cell RNA-seq, ATAC-seq, and TCR-seq analysis 
