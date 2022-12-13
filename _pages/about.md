@@ -22,7 +22,7 @@ My name is Junghyun Jung. I'm currently a postdoctoral scholar in [Dr. Nicholas 
 My research interests include developing a computational method to infer natural selection in the evolutionary architecture of molecular phenotype and analyzing multi-omics data to elucidate the etiology of complex traits.
  - Develop novel statistical methods using Variational Bayesian methods
  - Perform Transcriptome-wide association studies (TWAS) using GWAS summary statistic data with molecular QTL data
- - Analyze single cell RNA-seq, ATAC-seq, and TCR-seq analysis 
+ - Analyze single-cell RNA-seq, ATAC-seq, and TCR-seq analysis 
  
 I received my Ph.D. in Life Science from [Dongguk University](https://www.dongguk.edu/eng/main) in Korea, where I studied multi-omics integrative analysis  and method development for functional genomic data. While earning my Ph.D., I was advised by [Dr. Jong Wha (Joanne) Joo](https://cblab.yolasite.com/) and [Dr. Wonhee Jang](https://sites.google.com/view/dgu-janglab).
 
