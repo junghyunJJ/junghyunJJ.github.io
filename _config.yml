@@ -6,9 +6,9 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Junghyun
 middle_name:
 last_name: Jung
-email: junghyun.jung@usc.edu
+email: junghyun.jung@cshs.org
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Postdoctoral researcher at USC Center for Genetic Epidemiology.
+  Department of Computational Biomedicine at Cedars-Sinai Medical Center.
 footer_text: >
 
 keywords:  # add your own keywords or leave empty

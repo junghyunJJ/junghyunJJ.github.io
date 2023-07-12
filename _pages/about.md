@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Center for Genetic Epidemiology, Keck Medicine of USC
+subtitle: Department of Computational Biomedicine, Cedars-Sinai Medical Center
 
 profile:
   align: right
@@ -17,16 +17,20 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My name is Junghyun Jung. I'm currently a postdoctoral scholar in [Dr. Nicholas Mancuso's lab](https://www.mancusolab.com/) in the [Center for Genetic Epidemiology](https://keck.usc.edu/genetic-epidemiology-center/) at [Keck School of Medicine](https://www.keckmedicine.org/), [University of Southern California](https://www.usc.edu/).
+My name is Junghyun Jung. I'm currently a Reserch data scientist in [Dr. Kyoung Jae Won's lab](https://www.cedars-sinai.edu/research/labs/won.html) in the [Department of Computational Biomedicine](https://keck.usc.edu/genetic-epidemiology-center/) at [Cedars-Sinai Medical Center](https://www.cedars-sinai.edu/research.html?ppn=dW5kZWZpbmVk).
 
-My research interests include developing a computational method to infer natural selection in the evolutionary architecture of molecular phenotype and analyzing multi-omics data to elucidate the etiology of complex traits.
- - Develop a novel statistical method using Variational Bayesian methods.
- - Understand the landscape of evolutionary architectures across many molecular phenotypes.
- - Perform integrative analysis using GWAS with molecular QTL (molQTL) data for TWAS analysis
- - Perform Single-cell RNA/ATAC/TCR-seq data analysis.
+My research interests include developing a computational method for analyzing single-cell datasets and analyzing multi-omics data to elucidate the etiology of complex traits.
+ - Develop a novel statistical method for single-cell genetics datasets.
+ - Perform integrative analysis using GWAS with molecular QTL (molQTL) data
+ - Perform Single-cell RNA/ATAC/TCR-seq data analysis as well as Spatial transcriptomics data.
+ 
  
 I received my Ph.D. in Life Science from [Dongguk University](https://www.dongguk.edu/eng/main) in Korea, where I studied multi-omics integrative analysis  and method development for functional genomic data. While earning my Ph.D., I was advised by [Dr. Jong Wha (Joanne) Joo](https://cblab.yolasite.com/) and [Dr. Wonhee Jang](https://sites.google.com/view/dgu-janglab).
 
-I also was a postdoctoral scholar in [Dr. Serghei Mangul's lab](https://mangul-lab-usc.github.io/) at [USC School of Pharmacy](https://pharmacyschool.usc.edu/) and my work aimed to analyze GWAS and WES data related to COVID-19 and the benchmarking study for HLA callers.
+I also was a postdoctoral scholar in 
+[Dr. Nicholas Mancuso's lab](https://www.mancusolab.com/) at [Keck School of Medicine USC](https://www.keckmedicine.org/) and [Dr. Serghei Mangul's lab](https://mangul-lab-usc.github.io/) at [USC School of Pharmacy](https://pharmacyschool.usc.edu/). My work aimed to 
+ - Develop a novel statistical method using Variational Bayesian methods.
+ - Perform integrative analysis using GWAS with molecular QTL (molQTL) data for TWAS analysis
+ - Analyze GWAS and WES data related to COVID-19 and the benchmarking study for HLA callers.
 
-Please feel free to contact me through [email](mailto:junghyun.jung@usc.edu) if you have any questions.
+Please feel free to contact me through [email](mailto:junghyun.jung@cshs.org) if you have any questions.
