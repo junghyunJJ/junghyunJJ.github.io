@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My name is Junghyun Jung. I'm currently a Reserch data scientist in [Dr. Kyoung Jae Won's lab](https://www.cedars-sinai.edu/research/labs/won.html) in the [Department of Computational Biomedicine](https://keck.usc.edu/genetic-epidemiology-center/) at [Cedars-Sinai Medical Center](https://www.cedars-sinai.edu/research.html?ppn=dW5kZWZpbmVk).
+My name is Junghyun Jung. I'm currently a Reserch data scientist in [Dr. Kyoung Jae Won's lab](https://www.cedars-sinai.edu/research/labs/won.html) in the [Department of Computational Biomedicine](https://www.cedars-sinai.edu/research/departments-institutes/computational-biomedicine.html) at [Cedars-Sinai Medical Center](https://www.cedars-sinai.org/).
 
 My research interests include developing a computational method for analyzing single-cell datasets and analyzing multi-omics data to elucidate the etiology of complex traits.
  - Develop a novel statistical method for single-cell genetics datasets.
@@ -30,7 +30,7 @@ I received my Ph.D. in Life Science from [Dongguk University](https://www.donggu
 I also was a postdoctoral scholar in 
 [Dr. Nicholas Mancuso's lab](https://www.mancusolab.com/) at [Keck School of Medicine USC](https://www.keckmedicine.org/) and [Dr. Serghei Mangul's lab](https://mangul-lab-usc.github.io/) at [USC School of Pharmacy](https://pharmacyschool.usc.edu/). My work aimed to 
  - Develop a novel statistical method using Variational Bayesian methods.
- - Perform integrative analysis using GWAS with molecular QTL (molQTL) data for TWAS analysis
- - Analyze GWAS and WES data related to COVID-19 and the benchmarking study for HLA callers.
+ - Perform integrative analysis using Transcriptome wide association study (TWAS) analysis
+ - Analyze GWAS and WES data related to COVID-19 and the benchmarking study for Human leukocyte antigens (HLA) callers.
 
 Please feel free to contact me through [email](mailto:junghyun.jung@cshs.org) if you have any questions.
