@@ -19,18 +19,15 @@ social: true  # includes social icons at the bottom of the page
 
 My name is Junghyun Jung. I'm currently a Reserch data scientist in [Dr. Kyoung Jae Won's lab](https://www.cedars-sinai.edu/research/labs/won.html) in the [Department of Computational Biomedicine](https://www.cedars-sinai.edu/research/departments-institutes/computational-biomedicine.html) at [Cedars-Sinai Medical Center](https://www.cedars-sinai.org/).
 
-My research interests include developing a computational method for analyzing single-cell datasets and analyzing multi-omics data to elucidate the etiology of complex traits.
- - Develop novel computational tools for single-cell and spatial omics datasets.
- - Perform Single-cell RNA/ATAC/TCR-seq data analysis as well as spatial omics data.
- - Perform integrative analysis using GWAS with molecular QTL (molQTL) data
 
- 
+My research focuses on 
+ - developing of novel computational tools to analyze single-cell and spatial omics datasets
+ - investigating multi-omics data to gain insights into the underlying etiology of complex traits.
+
+
 I received my Ph.D. in Life Science from [Dongguk University](https://www.dongguk.edu/eng/main) in Korea, where I studied multi-omics integrative analysis  and method development for functional genomic data. While earning my Ph.D., I was advised by [Dr. Jong Wha (Joanne) Joo](https://cblab.yolasite.com/) and [Dr. Wonhee Jang](https://sites.google.com/view/dgu-janglab).
 
 I also was a postdoctoral scholar in 
-[Dr. Nicholas Mancuso's lab](https://www.mancusolab.com/) at [Keck School of Medicine USC](https://www.keckmedicine.org/) and [Dr. Serghei Mangul's lab](https://mangul-lab-usc.github.io/) at [USC School of Pharmacy](https://pharmacyschool.usc.edu/). My work aimed to 
- - Develop a novel statistical method using Variational Bayesian methods.
- - Perform integrative analysis using Transcriptome-wide association study (TWAS) analysis
- - Analyze GWAS and WES data related to COVID-19 and the benchmarking study for Human leukocyte antigens (HLA) callers.
+[Dr. Nicholas Mancuso's lab](https://www.mancusolab.com/) at [Keck School of Medicine USC](https://www.keckmedicine.org/) and [Dr. Serghei Mangul's lab](https://mangul-lab-usc.github.io/) at [USC School of Pharmacy](https://pharmacyschool.usc.edu/). My work aimed to perform integrative analysis using Transcriptome-wide association study (TWAS) analysis and analyze GWAS and WES data related to COVID-19 and the benchmarking study for Human leukocyte antigens (HLA) callers.
 
 Please feel free to contact me through [email](mailto:junghyun.jung@cshs.org) if you have any questions.
