@@ -7,10 +7,10 @@ subtitle: Department of Computational Biomedicine, Cedars-Sinai Medical Center
 profile:
   align: right
   image: junghyun_jung.png
-  # address: >
-  #   <p>555 your office number</p>
-  #   <p>123 your address street</p>
-  #   <p>Your City, State 12345</p>
+  address: >
+    <p>Computational Biomedicine</p>
+    <p>700 N San Vicente Blvd, Pacific Design Center</p>
+    <p>West Hollywood CA 90069</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
