@@ -8,9 +8,10 @@ profile:
   align: right
   image: junghyun_jung.png
   address: >
-    <p>Computational Biomedicine</p>
-    <p>700 N San Vicente Blvd, Pacific Design Center</p>
-    <p>West Hollywood CA, 90069</p>
+    <p>Cedars-Sinai Medical Center</p>
+    <p>Department of Computational Biomedicine</p>
+    <p>700 N. San Vicente Blvd.</p>
+    <p>West Hollywood, CA 90069</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
