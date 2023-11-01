@@ -27,6 +27,6 @@ My research focuses on
 I received my Ph.D. in Life Science from [Dongguk University](https://www.dongguk.edu/eng/main) in Korea, where I studied multi-omics integrative analysis and method development for functional genomic data. While earning my Ph.D., I was advised by [Dr. Jong Wha (Joanne) Joo](https://cblab.yolasite.com/) and [Dr. Wonhee Jang](https://sites.google.com/view/dgu-janglab).
 
 I also was a postdoctoral scholar in 
-[Dr. Nicholas Mancuso's lab](https://www.mancusolab.com/) at [Keck School of Medicine USC](https://www.keckmedicine.org/) and [Dr. Serghei Mangul's lab](https://mangul-lab-usc.github.io/) at [USC School of Pharmacy](https://pharmacyschool.usc.edu/). My work aimed to perform integrative analysis using Transcriptome-wide association study (TWAS) analysis and analyze GWAS and WES data related to COVID-19 and the benchmarking study for Human leukocyte antigens (HLA) callers.
+[Dr. Nicholas Mancuso's lab](https://www.mancusolab.com/) at [Keck School of Medicine USC](https://www.keckmedicine.org/) and [Dr. Serghei Mangul's lab](https://mangul-lab-usc.github.io/) at [USC School of Pharmacy](https://pharmacyschool.usc.edu/). My work aimed to perform integrative analysis using Transcriptome-wide association study (TWAS) and analyze GWAS and WES data related to COVID-19.
 
 Please feel free to contact me through [email](mailto:junghyun.jung@cshs.org) if you have any questions.
