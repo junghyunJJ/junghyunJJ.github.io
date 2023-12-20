@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Department of Computational Biomedicine, Cedars-Sinai Medical Center
+subtitle: Research data scientist at Cedars-Sinai Medical Center | Computational biologist
 
 profile:
   align: right
