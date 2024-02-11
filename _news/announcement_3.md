@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-07-10 
+date: 2023-10-13 
 inline: true
 ---
 
-I have recently become a member of the [Department of Computational Biomedicine](https://www.cedars-sinai.edu/research/departments-institutes/computational-biomedicine.html) at [Cedars-Sinai Medical Center](https://www.cedars-sinai.org/)!!
+The [Novel insight into the etiology of ischemic stroke gained by integrative multiome-wide association study](https://academic.oup.com/hmg/advance-article/doi/10.1093/hmg/ddad174/7308735) has been accepted for publication in [Human Molecular Genetics](https://academic.oup.com/hmg)! :sparkles:

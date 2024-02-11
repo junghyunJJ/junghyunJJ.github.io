@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-12-22 
+date: 2024-2-10
 inline: true
 ---
 
-WOWOW!! The [Nature Reviews Neurology](https://www.nature.com/nrneurol/articles?type=news-and-views) features our [stroke multiome-wide association study](https://academic.oup.com/hmg/advance-article/doi/10.1093/hmg/ddad174/7308735) paper! Please check [News & Views](https://www.nature.com/articles/s41582-023-00908-w) in Nature Reviews Neurology:sparkles:
+Finally, the [Large-scale integrative analysis of juvenile idiopathic arthritis for new insight into its pathogenesis](https://doi.org/10.1186/s13075-024-03280-2) have been published in [Arthritis Research & Therapy](https://arthritis-research.biomedcentral.com/)! :fire:

@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-10-13 
+date: 2023-12-22 
 inline: true
 ---
 
-The [Novel insight into the etiology of ischemic stroke gained by integrative multiome-wide association study](https://academic.oup.com/hmg/advance-article/doi/10.1093/hmg/ddad174/7308735) has been accepted for publication in [Human Molecular Genetics](https://academic.oup.com/hmg)! :sparkles:
+WOWOW!! The [Nature Reviews Neurology](https://www.nature.com/nrneurol/articles?type=news-and-views) features our [stroke multiome-wide association study](https://academic.oup.com/hmg/advance-article/doi/10.1093/hmg/ddad174/7308735) paper! Please check [News & Views](https://www.nature.com/articles/s41582-023-00908-w) in Nature Reviews Neurology:sparkles:
