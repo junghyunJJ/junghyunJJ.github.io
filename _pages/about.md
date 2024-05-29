@@ -22,7 +22,7 @@ My name is Junghyun Jung. I'm currently a Research data scientist in [Dr. Kyoung
 
 My research focuses on 
  - developing novel computational tools to analyze spatial omics and single-cell eQTL data.
- - investigating multi-omics data to gain insights into the underlying etiology of complex traits and disease. 
+ - investigating multi-omics data to gain insights into the underlying etiology of complex traits and diseases. 
  
 
 I received my Ph.D. in Life Science from [Dongguk University](https://www.dongguk.edu/eng/main) in Korea, where I studied multi-omics integrative analysis and method development for functional genomic data. While earning my Ph.D., I was advised by [Dr. Jong Wha (Joanne) Joo](http://cblab.dongguk.edu/) and [Dr. Wonhee Jang](https://sites.google.com/view/dgu-janglab).
