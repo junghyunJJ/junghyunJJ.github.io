@@ -21,6 +21,7 @@ My name is Junghyun Jung. I'm currently a Research data scientist in [Dr. Kyoung
 
 
 My research focuses on 
+ - developing agnetic AI using muti-agent frame work
  - developing novel computational tools to analyze spatial omics and single-cell eQTL data.
  - investigating multi-omics data to gain insights into the underlying etiology of complex traits and diseases. 
  
