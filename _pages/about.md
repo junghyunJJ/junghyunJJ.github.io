@@ -17,14 +17,14 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My name is Junghyun Jung. I'm currently a Research data scientist in [Dr. Kyoung Jae Won's lab](https://www.cedars-sinai.edu/research/labs/won.html) in the [Department of Computational Biomedicine](https://www.cedars-sinai.edu/research/departments-institutes/computational-biomedicine.html) at [Cedars-Sinai Medical Center](https://www.cedars-sinai.org/).
+My name is Junghyun Jung. I'm currently a Research data scientist in the [Department of Computational Biomedicine](https://www.cedars-sinai.edu/research/departments-institutes/computational-biomedicine.html) at [Cedars-Sinai Medical Center](https://www.cedars-sinai.org/).
 
 
 My research focuses on 
- - developing agnetic AI using muti-agent frame work
- - developing novel computational tools to analyze spatial omics and single-cell eQTL data.
- - investigating multi-omics data to gain insights into the underlying etiology of complex traits and diseases. 
- 
+ - establishing agentic AI systems through a multi-agent framework to enhance autonomous decision-making in biological data analysis.
+ - developing novel computational tools for the analysis of spatial omics and single-cell eQTL datasets.
+ - integrating and analyzing multi-omics data to uncover the molecular mechanisms underlying complex traits and diseases.
+
 
 I received my Ph.D. in Life Science from [Dongguk University](https://www.dongguk.edu/eng/main) in Korea, where I studied multi-omics integrative analysis and method development for functional genomic data. While earning my Ph.D., I was advised by [Dr. Jong Wha (Joanne) Joo](https://cblab.yolasite.com/) and [Dr. Wonhee Jang](https://sites.google.com/view/dgu-janglab).
 
