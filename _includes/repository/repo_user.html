@@ -1,11 +1,16 @@
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.username }}">
-    <img class="repo-img-light w-100" alt="{{ include.username }}" src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&show_icons=true" onerror="this.style.display='none'; this.nextElementSibling.style.display='none'; this.nextElementSibling.nextElementSibling.classList.remove('d-none');">
-    <img class="repo-img-dark w-100" alt="{{ include.username }}" src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&show_icons=true" onerror="this.style.display='none'; this.nextElementSibling.classList.remove('d-none');">
-    <div class="repo-fallback d-none">
-      <div class="text-truncate mb-2">{{ include.username }}</div>
-      <img class="w-100" alt="Followers of {{ include.username }}" src="https://img.shields.io/github/followers/{{ include.username }}?style=flat-square&label=Followers&logo=github">
-      <img class="w-100" alt="Stars for {{ include.username }}" src="https://img.shields.io/github/stars/{{ include.username }}?style=flat-square&label=Stars&logo=github">
+<div class="repo repo-card p-2">
+  <a class="repo-card-link" href="https://github.com/{{ include.username }}">
+    <img class="repo-img-light w-100" alt="{{ include.username }}" src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&show_icons=true" onerror="this.closest('.repo-card').classList.add('repo-card-error');">
+    <img class="repo-img-dark w-100" alt="{{ include.username }}" src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&show_icons=true" onerror="this.closest('.repo-card').classList.add('repo-card-error');">
+    <div class="repo-card-fallback">
+      <div class="repo-card-fallback-body">
+        <i class="fab fa-github repo-card-icon" aria-hidden="true"></i>
+        <div>
+          <div class="repo-card-label">GitHub Profile</div>
+          <div class="repo-card-title">{{ include.username }}</div>
+        </div>
+      </div>
+      <div class="repo-card-footer">View profile</div>
     </div>
   </a>
 </div>

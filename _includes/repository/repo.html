@@ -6,14 +6,19 @@
   {% assign show_owner = true %}
 {% endif %}
 
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.repository }}">
-    <img class="repo-img-light w-100" alt="{{ include.repository }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url.first }}&repo={{ repo_url.last }}&theme={{ site.repo_theme_light }}&show_owner={{ show_owner }}" onerror="this.style.display='none'; this.nextElementSibling.style.display='none'; this.nextElementSibling.nextElementSibling.classList.remove('d-none');">
-    <img class="repo-img-dark w-100" alt="{{ include.repository }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url.first }}&repo={{ repo_url.last }}&theme={{ site.repo_theme_dark }}&show_owner={{ show_owner }}" onerror="this.style.display='none'; this.nextElementSibling.classList.remove('d-none');">
-    <div class="repo-fallback d-none">
-      <div class="text-truncate mb-2">{{ include.repository }}</div>
-      <img class="w-100" alt="Stars for {{ include.repository }}" src="https://img.shields.io/github/stars/{{ include.repository }}?style=flat-square&label=Stars&logo=github">
-      <img class="w-100" alt="Forks for {{ include.repository }}" src="https://img.shields.io/github/forks/{{ include.repository }}?style=flat-square&label=Forks&logo=github">
+<div class="repo repo-card p-2">
+  <a class="repo-card-link" href="https://github.com/{{ include.repository }}">
+    <img class="repo-img-light w-100" alt="{{ include.repository }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url.first }}&repo={{ repo_url.last }}&theme={{ site.repo_theme_light }}&show_owner={{ show_owner }}" onerror="this.closest('.repo-card').classList.add('repo-card-error');">
+    <img class="repo-img-dark w-100" alt="{{ include.repository }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url.first }}&repo={{ repo_url.last }}&theme={{ site.repo_theme_dark }}&show_owner={{ show_owner }}" onerror="this.closest('.repo-card').classList.add('repo-card-error');">
+    <div class="repo-card-fallback">
+      <div class="repo-card-fallback-body">
+        <i class="fab fa-github repo-card-icon" aria-hidden="true"></i>
+        <div>
+          <div class="repo-card-label">Repository</div>
+          <div class="repo-card-title">{{ include.repository }}</div>
+        </div>
+      </div>
+      <div class="repo-card-footer">View on GitHub</div>
     </div>
   </a>
 </div>
