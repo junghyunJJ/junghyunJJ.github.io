@@ -11,14 +11,14 @@
           {%- endif -%}
         {%- elsif entry.abbr -%}
           {%- assign abbr_label = entry.abbr | replace: ' (', '<br>(' -%}
+          {%- assign badge_style = 'color: black !important;' -%}
           {%- if site.data.venues[entry.abbr] -%}
-            {%- assign venue_style = nil -%}
             {%- if site.data.venues[entry.abbr].color != blank -%}
-              {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
+              {%- assign badge_style = site.data.venues[entry.abbr].color | prepend: 'background-color:' | append: '; color: black !important;' -%}
             {%- endif -%}
-            <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{abbr_label}}</a></abbr>
+            <abbr class="badge" style="{{badge_style}}"><a href="{{site.data.venues[entry.abbr].url}}" style="color: black !important;">{{abbr_label}}</a></abbr>
           {%- else -%}
-            <abbr class="badge">{{abbr_label}}</abbr>
+            <abbr class="badge" style="{{badge_style}}">{{abbr_label}}</abbr>
           {%- endif -%}
         {%- endif -%}
         </div>
