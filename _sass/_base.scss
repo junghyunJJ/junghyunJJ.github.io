@@ -343,7 +343,7 @@ footer.sticky-bottom {
   border: 1px solid var(--global-divider-color);
   border-radius: 6px;
   display: none;
-  min-height: 140px;
+  min-height: 175px;
   padding: 1rem;
   text-align: left;
 }
@@ -385,6 +385,13 @@ footer.sticky-bottom {
   font-size: 1rem;
   font-weight: 500;
   overflow-wrap: anywhere;
+}
+
+.repo-card-description {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin: 0.5rem 0 0;
 }
 
 .repo-card-footer {

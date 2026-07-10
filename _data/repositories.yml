@@ -2,6 +2,9 @@ github_users:
   - junghyunJJ
   
 github_repos:
-  - junghyunJJ/marsR
-  - junghyunJJ/ggmend
-  - mancusolab/stroke_twas
+  - name: junghyunJJ/voiceinput
+    title: VoiceInput
+    description: A macOS menu bar app that converts speech to text using on-device AI.
+  - name: junghyunJJ/marsR
+    title: MARS
+    description: An R package for a model-based association test that leverages allelic heterogeneity to improve GWAS power.
