@@ -585,7 +585,7 @@ footer.sticky-bottom {
         margin-bottom: 0.5rem;
         abbr {
           background-color: var(--global-theme-color);
-          color: black;
+          color: black !important;
           display: inline-block;
           line-height: 1.15;
           min-width: 4.5rem;
@@ -593,7 +593,7 @@ footer.sticky-bottom {
           text-align: center;
           white-space: normal;
           a {
-            color: black;
+            color: black !important;
             &:hover {
               text-decoration: none;
             }
