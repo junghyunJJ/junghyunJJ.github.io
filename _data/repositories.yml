@@ -2,6 +2,9 @@ github_users:
   - junghyunJJ
   
 github_repos:
+  - name: junghyunJJ/sgcp-rag
+    title: SGCP-RAG
+    description: A self-correcting, SNI-guided RAG system with LangGraph, pgvector, and MCP integration.
   - name: junghyunJJ/voiceinput
     title: VoiceInput
     description: A macOS menu bar app that converts speech to text using on-device AI.
