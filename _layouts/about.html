@@ -1,66 +1,75 @@
 ---
 layout: default
 ---
+<div class="academic-home">
+  <section class="hero" aria-labelledby="intro-title">
+    <div class="hero-copy">
+      <p class="eyebrow">{{ site.data.home.eyebrow }}</p>
+      <h1 id="intro-title">{{ site.first_name }} <em>{{ site.last_name }}</em></h1>
+      <p class="hero-tagline">{{ site.data.home.tagline }}</p>
+      <p class="hero-introduction">{{ site.data.home.introduction }}</p>
+      <div class="hero-actions">
+        <a class="academic-button primary" href="{{ '/research/' | relative_url }}">Explore research <span aria-hidden="true">↗</span></a>
+        <a class="academic-button" href="{{ '/assets/pdf/JJ_CV.pdf' | relative_url }}">Download CV <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-links">
+        <a href="mailto:{{ site.email }}">Email</a>
+        <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}">Google Scholar</a>
+        <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+        <a href="https://orcid.org/{{ site.orcid_id }}">ORCID</a>
+      </div>
+    </div>
+    <aside class="hero-profile" aria-label="Current position">
+      <img src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="Portrait of Junghyun Jung" width="280" height="310" fetchpriority="high">
+      <div class="profile-caption">
+        <p class="eyebrow">Currently</p>
+        <p class="profile-role">Research Data Scientist</p>
+        <a href="https://www.cedars-sinai.edu/research/departments-institutes/computational-biomedicine.html">Computational Biomedicine<br>Cedars-Sinai Medical Center</a>
+        <p class="profile-location">Los Angeles, California</p>
+      </div>
+    </aside>
+  </section>
 
-<!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-          </h1>
-          <p class="desc">{{ page.subtitle }}</p>
-        </header>
+  <section id="research" class="home-section" aria-labelledby="research-title">
+    <div class="section-heading">
+      <div><p class="eyebrow">Research directions</p><h2 id="research-title">Questions that guide my work.</h2></div>
+      <a class="section-link" href="{{ '/research/' | relative_url }}">Explore research <span aria-hidden="true">↗</span></a>
+    </div>
+    {% include research_cards.html %}
+  </section>
 
-        <article>
-          {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+  <section id="selected-work" class="home-section" aria-labelledby="selected-work-title">
+    <div class="section-heading">
+      <div><p class="eyebrow">Selected work</p><h2 id="selected-work-title">Methods, evidence, and biological insight.</h2></div>
+      <a class="section-link" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="publications">{% bibliography -f papers -q @*[selected=true] %}</div>
+  </section>
 
-              {% if page.profile.image_circular %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-              {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-              {% endif %}
+  <section id="software" class="home-section" aria-labelledby="software-title">
+    <div class="section-heading">
+      <div><p class="eyebrow">Open-source software</p><h2 id="software-title">Research ideas, made usable.</h2></div>
+      <a class="section-link" href="{{ '/software/' | relative_url }}">Explore software <span aria-hidden="true">↗</span></a>
+    </div>
+    {% include software_cards.html %}
+  </section>
 
-              {% include figure.html 
-              path=profile_image_path 
-              class=profile_image_class
-              alt=page.profile.image -%}
-            {% endif -%}
-            {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-            {%- endif %}
-          </div>
-          {%- endif %}
+  <section id="updates" class="home-section" aria-labelledby="updates-title">
+    <div class="section-heading"><div><p class="eyebrow">Along the way</p><h2 id="updates-title">Recent updates.</h2></div></div>
+    <ol class="updates-list">
+      {% assign recent_news = site.news | sort: 'date' | reverse %}
+      {% for item in recent_news limit: 4 %}
+      <li><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b %Y' }}</time>
+        <div>{% if item.inline %}{{ item.content }}{% else %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endif %}</div>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
 
-          <div class="clearfix">
-            {{ content }}
-          </div>
+  <section id="background" class="home-section background-section" aria-labelledby="background-title">
+    <div><p class="eyebrow">Background</p><h2 id="background-title">A biologist's questions.<br>A computational approach.</h2></div>
+    <div class="background-copy">{{ content }}</div>
+  </section>
 
-          {% if page.news -%}
-          <!-- News -->
-          {%- include news.html %}
-          {%- endif %}
-          {% if page.selected_papers -%}
-            <!-- Selected papers -->
-            {%- include selected_papers.html %}
-          {%- endif %}
-          {%- if page.social %}
-          <!-- Social -->
-          <div class="social">
-            <div class="contact-icons">
-            {% include social.html %}
-            </div>
-
-            <div class="contact-note">
-              {{ site.contact_note }}
-            </div>
-            
-          </div>
-          {%- endif %}
-        </article>
-
+  <div class="contact-line"><p>Interested in research or collaboration?</p><a href="mailto:{{ site.email }}">Let's connect <span aria-hidden="true">↗</span></a></div>
 </div>

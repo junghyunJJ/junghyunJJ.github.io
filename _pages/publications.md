@@ -1,17 +1,14 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: publications by categories in reversed chronological order.
-years: [2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016]
+title: Publications
+description: Computational methods and integrative studies in genomics and human disease.
 nav: true
+nav_order: 2
 ---
 
 <div class="publications">
 
-{% for y in page.years %}
-  <h2 class="year" style="color: white;">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]*%}
-{% endfor %}
+{% bibliography --group_by year --group_order descending %}
 
 </div>

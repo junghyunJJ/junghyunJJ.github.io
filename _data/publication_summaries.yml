@@ -1,0 +1,12 @@
+jia:
+  summary: "Integrated TWAS, PWAS, genetic architecture, HLA typing, and single-cell immune repertoire analyses to prioritize genes, proteins, and T cell populations associated with juvenile idiopathic arthritis risk."
+  topic: "Integrative immunogenomics"
+zhang2023scalable:
+  summary: "Introduced FactorGo, a scalable variational factor analysis method for finding pleiotropic components across thousands of GWAS summary statistics and connecting them to tissue and disease biology."
+  topic: "Scalable statistical genetics"
+jung2023novel:
+  summary: "Integrated ischemic stroke GWAS with molecular QTL resources across many tissues to prioritize risk genes, regulatory mechanisms, shared traits, and potential therapeutic candidates."
+  topic: "Integrative multi-omics"
+mars:
+  summary: "Developed MARS, a summary-statistics association test that models allelic heterogeneity to improve power for detecting risk loci with multiple causal variants."
+  topic: "GWAS method development"

@@ -1,0 +1,10 @@
+<div class="software-grid">
+  {% for repo in site.data.repositories.github_repos %}
+  <article class="software-card">
+    <div class="software-card-top"><span class="eyebrow">Open source / 0{{ forloop.index }}</span><span class="software-symbol" aria-hidden="true">↗</span></div>
+    <h3><a href="https://github.com/{{ repo.name }}">{{ repo.title }}</a></h3>
+    <p>{{ repo.description }}</p>
+    <a class="text-link" href="https://github.com/{{ repo.name }}">View repository <span class="sr-only">for {{ repo.title }}</span><span aria-hidden="true">↗</span></a>
+  </article>
+  {% endfor %}
+</div>

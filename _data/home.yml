@@ -1,0 +1,38 @@
+eyebrow: "Computational biology and agentic AI"
+tagline: "Computational methods and agentic AI to understand biology."
+introduction: "I am a Research Data Scientist in the Department of Computational Biomedicine at Cedars-Sinai Medical Center."
+research:
+  - id: agentic-ai
+    label: "01"
+    title: "Agentic AI for biological analysis"
+    description: "Building multi-agent systems for more autonomous biological data analysis."
+    detail: "I work on agentic AI systems for biological data analysis, with interest in workflows that coordinate retrieval, reasoning, and analysis tools."
+    tags:
+      - "Agentic AI"
+      - "Multi-agent systems"
+      - "Retrieval-augmented generation"
+    related_papers: []
+  - id: spatial-omics
+    label: "02"
+    title: "Spatial and single-cell omics methods"
+    description: "Developing computational tools for spatial omics and single-cell eQTL data."
+    detail: "I am interested in methods that connect molecular measurements to cell states, tissue context, and regulatory variation, building on my experience with functional genomic data."
+    tags:
+      - "Spatial omics"
+      - "Single-cell analysis"
+      - "Functional genomics"
+    related_papers:
+      - jia
+  - id: integrative-genomics
+    label: "03"
+    title: "Integrative genomics of complex traits"
+    description: "Combining GWAS, QTL, transcriptomic, proteomic, and multi-omics data to study disease mechanisms."
+    detail: "I bring together doctoral training and postdoctoral work on TWAS, GWAS, WES, and multi-omics association studies to study complex traits and diseases."
+    tags:
+      - "TWAS and GWAS"
+      - "Multi-omics"
+      - "Complex traits"
+    related_papers:
+      - zhang2023scalable
+      - jung2023novel
+      - mars
