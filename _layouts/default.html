@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang }}">
+<html lang="{{ site.lang }}"{% if site.enable_darkmode %} data-theme="{{ site.default_theme | default: 'dark' }}" data-default-theme="{{ site.default_theme | default: 'dark' }}"{% endif %}>
 
   <!-- Head -->
   <head>

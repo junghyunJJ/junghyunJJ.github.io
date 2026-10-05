@@ -10,19 +10,51 @@
   --global-footer-bg-color: #f7f6f2;
   --global-footer-text-color: #68746d;
   --global-footer-link-color: #356257;
+  --academic-border: #bbc9ba;
+  --academic-number: #899983;
+  --academic-soft-bg: #e9ede4;
+  --academic-tag-text: #526a5c;
+  --academic-panel-bg: #edf0e7;
+  --academic-summary-color: #526157;
+  --academic-badge-bg: #dce5d8;
+  --academic-primary-text: #fff;
+  color-scheme: light;
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #151c19;
+  --global-code-bg-color: #1b241f;
+  --global-text-color: #e8ece6;
+  --global-text-color-light: #a8b4ad;
+  --global-theme-color: #a4c5b2;
+  --global-hover-color: #c4dece;
+  --global-divider-color: #38443c;
+  --global-card-bg-color: #1e2a22;
+  --global-footer-bg-color: #151c19;
+  --global-footer-text-color: #a8b4ad;
+  --global-footer-link-color: #a4c5b2;
+  --academic-border: #53695b;
+  --academic-number: #91a895;
+  --academic-soft-bg: #28382e;
+  --academic-tag-text: #c0d8c6;
+  --academic-panel-bg: #1e2a22;
+  --academic-summary-color: #bacabd;
+  --academic-badge-bg: #a5c4ad;
+  --academic-primary-text: #142017;
+  color-scheme: dark;
 }
 
 body { font-size: 16px; line-height: 1.7; font-weight: 400; }
 body.fixed-top-nav { padding-top: 76px; }
 a { color: var(--global-theme-color); }
 a:hover { color: var(--global-hover-color); }
-a:focus-visible, button:focus-visible { outline: 2px solid #356257; outline-offset: 5px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 5px; }
 .site-content { padding-top: 58px; padding-bottom: 44px; }
 main:focus { outline: none; }
 .skip-link {
   position: fixed; z-index: 1100; left: 20px; top: -90px;
-  padding: 10px 18px; background: #24352f; color: #fff; border-radius: 4px;
-  &:focus { top: 12px; color: #fff; }
+  padding: 10px 18px; background: var(--global-text-color); color: var(--academic-primary-text); border-radius: 4px;
+  &:focus { top: 12px; color: var(--academic-primary-text); }
 }
 
 #navbar {
@@ -31,48 +63,51 @@ main:focus { outline: none; }
   .navbar-brand { display: flex; align-items: center; gap: 10px; font-size: 15px; }
   .brand-monogram {
     display: inline-flex; align-items: center; justify-content: center;
-    width: 34px; height: 34px; margin-right: 4px; border: 1px solid #b9c5bb;
-    border-radius: 50%; font: 15px Georgia, serif; color: #356257;
+    width: 34px; height: 34px; margin-right: 4px; border: 1px solid var(--academic-border);
+    border-radius: 50%; font: 15px Georgia, serif; color: var(--global-theme-color);
   }
   .nav-link { font-size: 14px; margin-left: 17px; padding: 10px 0; }
-  .nav-item.active > .nav-link { font-weight: 500; color: #356257; }
-  .nav-link[aria-current="page"] { border-bottom: 1px solid #356257; }
+  .nav-item.active > .nav-link { font-weight: 500; color: var(--global-theme-color); }
+  .nav-link[aria-current="page"] { border-bottom: 1px solid var(--global-theme-color); }
+  .toggle-container { display: flex; align-items: center; margin-left: 20px; }
+  #light-toggle { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border: 1px solid var(--academic-border); border-radius: 4px; }
+  #light-toggle .fa-sun, #light-toggle .fa-moon { padding: 0; }
 }
 
 .eyebrow {
   margin: 0 0 16px; font: 11px/1.6 ui-monospace, SFMono-Regular, Menlo, monospace;
-  text-transform: uppercase; letter-spacing: 0.14em; color: #356257;
+  text-transform: uppercase; letter-spacing: 0.14em; color: var(--global-theme-color);
 }
 .hero {
   display: grid; grid-template-columns: minmax(0, 1fr) 260px;
   align-items: center; gap: 76px; padding: 24px 0 76px;
   h1 { margin: 0 0 24px; font: 400 clamp(3.5rem, 6.4vw, 6rem)/1.05 Georgia, serif; letter-spacing: -0.055em; }
-  h1 em { font-weight: 400; color: #356257; }
+  h1 em { font-weight: 400; color: var(--global-theme-color); }
 }
 .hero-tagline { max-width: 660px; margin-bottom: 24px; font: 400 32px/1.35 Georgia, serif; letter-spacing: -0.015em; }
-.hero-introduction { max-width: 580px; color: #68746d; line-height: 1.85; margin-bottom: 28px; }
+.hero-introduction { max-width: 580px; color: var(--global-text-color-light); line-height: 1.85; margin-bottom: 28px; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
 .academic-button {
   display: inline-flex; align-items: center; justify-content: center; gap: 22px;
-  border: 1px solid #b8c2b8; border-radius: 4px; padding: 12px 20px;
-  color: #24352f; font-size: 13px; font-weight: 500; text-decoration: none;
+  border: 1px solid var(--academic-border); border-radius: 4px; padding: 12px 20px;
+  color: var(--global-text-color); font-size: 13px; font-weight: 500; text-decoration: none;
   transition: background-color .15s, border-color .15s;
-  &:hover { background: #e9ede5; color: #24352f; text-decoration: none; }
-  &.primary { background: #356257; border-color: #356257; color: #fff; }
+  &:hover { background: var(--academic-soft-bg); color: var(--global-text-color); text-decoration: none; }
+  &.primary { background: var(--global-theme-color); border-color: var(--global-theme-color); color: var(--academic-primary-text); }
   &.primary span { color: inherit; }
-  &.primary:hover { background: #22483e; border-color: #22483e; }
+  &.primary:hover { background: var(--global-hover-color); border-color: var(--global-hover-color); color: var(--academic-primary-text); }
 }
 .hero-links {
   display: flex; flex-wrap: wrap; gap: 20px; margin-top: 24px;
-  a { font-size: 12px; color: #68746d; }
+  a { font-size: 12px; color: var(--global-text-color-light); }
 }
 .hero-profile {
   img { display: block; width: 100%; height: 290px; object-fit: cover; object-position: center 25%; border-radius: 3px; }
-  .profile-caption { border-left: 1px solid #c6cfc3; margin-top: 24px; padding-left: 18px; }
+  .profile-caption { border-left: 1px solid var(--global-divider-color); margin-top: 24px; padding-left: 18px; }
   .eyebrow { margin-bottom: 8px; }
   .profile-role { font: 21px/1.3 Georgia, serif; margin-bottom: 10px; }
   a { font-size: 13px; line-height: 1.6; }
-  .profile-location { margin: 10px 0 0; color: #68746d; font-size: 12px; }
+  .profile-location { margin: 10px 0 0; color: var(--global-text-color-light); font-size: 12px; }
 }
 
 .home-section { padding: 48px 0; border-top: 1px solid var(--global-divider-color); scroll-margin-top: 100px; }
@@ -85,15 +120,15 @@ main:focus { outline: none; }
 .section-link span, .text-link > span[aria-hidden] { margin-left: 9px; }
 .research-grid, .software-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
 .research-card {
-  display: flex; flex-direction: column; padding: 24px; border: 1px solid #dedfd6; border-radius: 3px;
-  .research-number { font: italic 26px Georgia, serif; color: #899983; margin-bottom: 22px; }
+  display: flex; flex-direction: column; padding: 24px; border: 1px solid var(--global-divider-color); border-radius: 3px;
+  .research-number { font: italic 26px Georgia, serif; color: var(--academic-number); margin-bottom: 22px; }
   h3 { font: 400 23px/1.3 Georgia, serif; margin-bottom: 16px; letter-spacing: -0.01em; }
-  p { font-size: 14px; color: #68746d; line-height: 1.75; margin-bottom: 20px; }
+  p { font-size: 14px; color: var(--global-text-color-light); line-height: 1.75; margin-bottom: 20px; }
   .text-link { margin-top: auto; }
 }
 .topic-tags {
   display: flex; flex-wrap: wrap; gap: 6px 8px; list-style: none; padding: 0; margin: 0 0 24px;
-  li { font-size: 10px; line-height: 1.5; padding: 4px 8px; color: #526a5c; background: #e9ede4; border-radius: 2px; }
+  li { font-size: 10px; line-height: 1.5; padding: 4px 8px; color: var(--academic-tag-text); background: var(--academic-soft-bg); border-radius: 2px; }
 }
 .text-link { font-size: 12px; font-weight: 500; }
 .research-detailed {
@@ -103,67 +138,67 @@ main:focus { outline: none; }
 }
 .research-related {
   display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px;
-  > span { font-size: 11px; color: #68746d; }
+  > span { font-size: 11px; color: var(--global-text-color-light); }
   a { font-size: 12px; }
 }
 .software-card {
-  display: flex; flex-direction: column; background: #edf0e7; padding: 26px; border-radius: 3px;
+  display: flex; flex-direction: column; background: var(--academic-panel-bg); padding: 26px; border-radius: 3px;
   .software-card-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 35px; }
   .eyebrow { font-size: 10px; margin: 0; }
-  .software-symbol { font-size: 22px; color: #788b78; }
+  .software-symbol { font-size: 22px; color: var(--academic-number); }
   h3 { font: 400 28px Georgia, serif; margin-bottom: 14px; }
-  h3 a { color: #24352f; }
-  p { font-size: 14px; color: #68746d; line-height: 1.75; margin-bottom: 24px; }
+  h3 a { color: var(--global-text-color); }
+  p { font-size: 14px; color: var(--global-text-color-light); line-height: 1.75; margin-bottom: 24px; }
   .text-link { margin-top: auto; }
 }
 .updates-list {
   list-style: none; padding: 0; margin: 0;
-  li { display: grid; grid-template-columns: 90px 1fr; gap: 24px; padding: 16px 0; border-bottom: 1px solid #e7e7df; font-size: 14px; }
+  li { display: grid; grid-template-columns: 90px 1fr; gap: 24px; padding: 16px 0; border-bottom: 1px solid var(--global-divider-color); font-size: 14px; }
   li:last-child { border: 0; }
-  time { font: 11px/1.8 ui-monospace, SFMono-Regular, Menlo, monospace; color: #68746d; }
+  time { font: 11px/1.8 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--global-text-color-light); }
   p { margin: 0; }
   a { text-decoration: underline; text-underline-offset: 3px; }
 }
 .background-section {
   display: grid; grid-template-columns: 1fr 1.2fr; gap: 70px;
   h2 { font: 400 30px/1.35 Georgia, serif; }
-  .background-copy { font-size: 14px; color: #68746d; }
+  .background-copy { font-size: 14px; color: var(--global-text-color-light); }
 }
 .contact-line {
   display: flex; justify-content: space-between; align-items: center; gap: 24px;
-  padding: 28px 0; border-top: 1px solid #dedfd6; font: 22px/1.4 Georgia, serif;
+  padding: 28px 0; border-top: 1px solid var(--global-divider-color); font: 22px/1.4 Georgia, serif;
   p { margin: 0; }
 }
-.academic-footer { border-top: 1px solid #dedfd6; padding: 24px 0; }
-.footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; font-size: 11px; color: #68746d; }
+.academic-footer { border-top: 1px solid var(--global-divider-color); padding: 24px 0; }
+.footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; font-size: 11px; color: var(--global-text-color-light); }
 .post-header {
   margin-bottom: 36px;
   .post-title { font: 400 56px/1.15 Georgia, serif; letter-spacing: -0.04em; margin-bottom: 18px; }
-  .post-description { font-size: 17px; color: #68746d; max-width: 700px; }
+  .post-description { font-size: 17px; color: var(--global-text-color-light); max-width: 700px; }
 }
 .post article > p { max-width: 900px; }
 
 .publications {
   margin-top: 0;
-  h2.year, h2.bibliography { color: #68746d; border-top: 1px solid #dedfd6; padding-top: 24px; font: 28px Georgia, serif; margin: 32px 0 10px; }
+  h2.year, h2.bibliography { color: var(--global-text-color-light); border-top: 1px solid var(--global-divider-color); padding-top: 24px; font: 28px Georgia, serif; margin: 32px 0 10px; }
   ol.bibliography { padding: 0; }
-  ol.bibliography li { margin: 0; padding: 26px 0; border-bottom: 1px solid #e1e3da; }
+  ol.bibliography li { margin: 0; padding: 26px 0; border-bottom: 1px solid var(--global-divider-color); }
   ol.bibliography li:last-child { border-bottom: 0; }
   .row { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 30px; margin: 0; }
   .row > div { width: auto; max-width: none; padding: 0; }
   .publication-content { min-width: 0; scroll-margin-top: 100px; }
   .preview { display: flex; align-items: flex-start; }
-  img.preview { width: 160px; height: 120px; object-fit: contain; background: #edf0e7; border-radius: 3px; box-shadow: none !important; }
+  img.preview { width: 160px; height: 120px; object-fit: contain; background: var(--academic-panel-bg); border-radius: 3px; box-shadow: none !important; }
   .title { font-size: 17px; line-height: 1.45; font-weight: 500; margin-bottom: 8px; }
-  .author { font-size: 12px; color: #68746d; margin-bottom: 4px; }
-  .author em { color: #24352f; font-style: normal; font-weight: 500; }
-  .periodical { font-size: 12px; color: #68746d; }
-  .publication-summary { margin: 12px 0 14px; font-size: 13px; line-height: 1.7; color: #526157; }
+  .author { font-size: 12px; color: var(--global-text-color-light); margin-bottom: 4px; }
+  .author em { color: var(--global-text-color); font-style: normal; font-weight: 500; }
+  .periodical { font-size: 12px; color: var(--global-text-color-light); }
+  .publication-summary { margin: 12px 0 14px; font-size: 13px; line-height: 1.7; color: var(--academic-summary-color); }
   .links { display: flex; flex-wrap: wrap; gap: 8px; padding-top: 6px; }
-  .links .btn { margin: 0; padding: 5px 10px; font-size: 10px; color: #356257; border: 1px solid #bbc9ba; border-radius: 3px; background: transparent; box-shadow: none; text-transform: none; }
-  .links .btn:hover { background: #e9ede4; color: #22483e; }
-  ol.bibliography li .abbr abbr { font-size: 11px; border-radius: 3px; padding: 8px 10px; min-width: 90px; background-color: #dce5d8; box-shadow: none; }
-  div.abstract.hidden.open { margin-top: 16px; padding: 16px; border: 1px solid #dedfd6; border-radius: 3px; font-size: 13px; }
+  .links .btn { margin: 0; padding: 5px 10px; font-size: 10px; color: var(--global-theme-color); border: 1px solid var(--academic-border); border-radius: 3px; background: transparent; box-shadow: none; text-transform: none; }
+  .links .btn:hover { background: var(--academic-soft-bg); color: var(--global-hover-color); }
+  ol.bibliography li .abbr abbr { font-size: 11px; border-radius: 3px; padding: 8px 10px; min-width: 90px; background-color: var(--academic-badge-bg); box-shadow: none; }
+  div.abstract.hidden.open { margin-top: 16px; padding: 16px; border: 1px solid var(--global-divider-color); border-radius: 3px; font-size: 13px; }
 }
 
 @media (max-width: 991px) {

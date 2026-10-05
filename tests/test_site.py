@@ -84,6 +84,13 @@ class SiteTests(unittest.TestCase):
         self.assertTrue(path.is_file())
         self.assertEqual(path.read_bytes()[:5], b"%PDF-")
 
+    def test_dark_default_is_rendered_before_javascript_loads(self):
+        page = self.page()
+        self.assertEqual(page.elements("html")[0].get("data-theme"), "dark")
+        self.assertEqual(page.elements("html")[0].get("data-default-theme"), "dark")
+        toggle = next((b for b in page.elements("button") if b.get("id") == "light-toggle"), {})
+        self.assertTrue(toggle.get("aria-label"), "The theme switch needs an accessible label")
+
 
 if __name__ == "__main__":
     unittest.main()
