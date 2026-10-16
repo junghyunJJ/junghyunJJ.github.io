@@ -1,13 +1,15 @@
 ---
 ---
 <!-- _layouts/bib.html -->
+      {%- assign work_summary = site.data.publication_summaries[entry.key] -%}
+      {%- capture preview_alt -%}{% if work_summary.preview_alt %}{{ work_summary.preview_alt }}{% else %}{{ entry.title }} — research illustration{% endif %}{%- endcapture -%}
       <div class="row">
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}" alt="{{ entry.title | escape }} — research illustration" loading="lazy" width="160" height="120">
+          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}" alt="{{ preview_alt | escape }}" loading="lazy" width="600" height="480">
           {%- else -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}" alt="{{ entry.title | escape }} — research illustration" loading="lazy" width="160" height="120">
+          <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}" alt="{{ preview_alt | escape }}" loading="lazy" width="600" height="480">
           {%- endif -%}
         {%- elsif entry.abbr -%}
           {%- assign abbr_label = entry.abbr | replace: ' (', '<br>(' -%}
@@ -28,7 +30,7 @@
         {% if entry.type == "thesis" -%}
           {{reference}}
         {%- else %}
-          {%- assign work_summary = site.data.publication_summaries[entry.key] -%}
+          {% if work_summary.role %}<div class="publication-role">{{ work_summary.role | escape }}</div>{% endif %}
           <!-- Title -->
           <div class="title">{{entry.title}}</div>
           <!-- Author -->
@@ -127,7 +129,8 @@
             {{ periodical | strip }}
           </div>
         {%- endif %}
-          {% if work_summary %}<p class="publication-summary">{{ work_summary.summary }}</p>{% endif %}
+          {% if work_summary.summary %}<p class="publication-summary">{{ work_summary.summary }}</p>{% endif %}
+          {% if work_summary.contribution %}<p class="publication-contribution"><span>My contribution</span>{{ work_summary.contribution | escape }}</p>{% endif %}
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}

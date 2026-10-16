@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-labelledby="dupuytren-multiomics-title dupuytren-multiomics-desc">
+  <title id="dupuytren-multiomics-title">Dupuytren’s disease: co-expression signatures and genetic regulation</title>
+  <desc id="dupuytren-multiomics-desc">Conceptual schematic of Dupuytren’s disease expression data analyzed with WGCNA to define a co-expressed disease signature, assessed by enrichment and meta-analysis. The signature is enriched for unfolded protein response related to endoplasmic reticulum stress. Multiple-phenotype regression using GTEx data identifies trans-regulatory hotspots and cis-eQTL-associated eGenes. Heatmaps, gene modules, ER folds, and genomic links are illustrative, not measured results.</desc>
+  <defs><marker id="dupuytren-multiomics-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1L8 5L1 9" fill="none" stroke="#a4c5b2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+  <rect x="1" y="1" width="598" height="478" rx="20" fill="#18221d" stroke="#384e40" stroke-width="2"/>
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="28" y="49" fill="#e8ece6" font-size="32" font-weight="650">Dupuytren’s disease</text>
+    <text x="28" y="82" fill="#a8b4ad" font-size="24">Expression + genetic regulation</text>
+    <g text-anchor="middle" fill="#e8ece6" font-size="25" font-weight="550"><text x="116" y="132">Expression</text><text x="308" y="132">WGCNA</text><text x="493" y="132">Signature</text></g>
+    <rect x="43" y="150" width="147" height="85" rx="8" fill="#213028" stroke="#384e40"/>
+    <g fill="#a4c5b2" fill-opacity=".7"><path d="M51 158h24v15H51zm31 0h24v15H82zm31 21h24v15h-24zm31 0h24v15h-24zM51 200h24v15H51zm31 0h24v15H82zm62 0h24v15h-24z"/></g>
+    <g fill="#b4a6cb" fill-opacity=".55"><path d="M113 158h24v15h-24zm31 0h24v15h-24zM51 179h24v15H51zm31 0h24v15H82zm31 21h24v15h-24z"/></g>
+    <path d="M201 192h31" stroke="#a4c5b2" stroke-width="2" marker-end="url(#dupuytren-multiomics-arrow)"/>
+    <g fill="none" stroke="#719880" stroke-width="2"><path d="m256 187 34-31 31 16 27 34-44 24-48-43 34-31 14 74 44-24-58-50m31 16-17 58"/></g>
+    <g fill="#a4c5b2" stroke="#18221d" stroke-width="2"><circle cx="256" cy="187" r="7"/><circle cx="290" cy="156" r="7"/><circle cx="321" cy="172" r="9"/><circle cx="348" cy="206" r="7"/><circle cx="304" cy="230" r="6"/></g>
+    <path d="M365 192h28" stroke="#a4c5b2" stroke-width="2" marker-end="url(#dupuytren-multiomics-arrow)"/>
+    <g fill="#a4c5b2" fill-opacity=".13" stroke="#a4c5b2" stroke-width="1.5"><rect x="416" y="150" width="141" height="85" rx="11"/></g>
+    <g stroke="#a4c5b2" stroke-width="2"><path d="m442 179 31-16 30 17 26 27-43 13-44-41 31-16 13 57 17-40" fill="none"/><g fill="#a4c5b2" stroke="#213028"><circle cx="442" cy="179" r="5"/><circle cx="473" cy="163" r="5"/><circle cx="503" cy="180" r="6"/><circle cx="529" cy="207" r="5"/><circle cx="486" cy="220" r="5"/></g></g>
+    <path d="M486 236v14H300v12" stroke="#a4c5b2" stroke-width="2" fill="none" marker-end="url(#dupuytren-multiomics-arrow)"/>
+    <rect x="24" y="269" width="552" height="84" rx="13" fill="#213028" stroke="#384e40"/>
+    <g fill="none" stroke="#8eb7c5" stroke-width="2.3" stroke-linecap="round"><path d="M46 290h62q17 0 17 9t-17 9H58q-10 0-10 8t10 8h58m-70 12h62q17 0 17-10M58 299h52m-45 17h41"/></g>
+    <g fill="#d7bc87"><circle cx="64" cy="290" r="3"/><circle cx="86" cy="308" r="3"/><circle cx="112" cy="324" r="3"/><circle cx="74" cy="336" r="3"/></g>
+    <text x="151" y="302" fill="#e8ece6" font-size="26" font-weight="550">UPR / ER stress</text>
+    <text x="151" y="334" fill="#a8b4ad" font-size="23">Signature enrichment</text>
+    <text x="28" y="390" fill="#e8ece6" font-size="25" font-weight="550">GTEx regression</text>
+    <text x="465" y="390" text-anchor="middle" fill="#e8ece6" font-size="25" font-weight="550">Markers</text>
+    <path d="M40 418h200" stroke="#53695b" stroke-width="3"/><g fill="#d7bc87"><path d="m70 410 8 8-8 8-8-8Zm50 0 8 8-8 8-8-8Zm81 0 8 8-8 8-8-8Z"/></g>
+    <path d="M260 418h68" stroke="#a4c5b2" stroke-width="2.5" marker-end="url(#dupuytren-multiomics-arrow)"/>
+    <g stroke="#719880" stroke-width="2" fill="none"><path d="m360 418 36-14m-36 14 36 14m-36-14h85m-22 0 36-14m-36 14 36 14m-36-14h85m-22 0 36-14m-36 14 36 14"/></g>
+    <g fill="#a4c5b2"><circle cx="402" cy="404" r="5"/><circle cx="402" cy="432" r="5"/><circle cx="465" cy="404" r="5"/><circle cx="465" cy="432" r="5"/><circle cx="528" cy="404" r="5"/><circle cx="528" cy="432" r="5"/></g>
+    <text x="300" y="464" text-anchor="middle" fill="#a8b4ad" font-size="24">trans-hotspots + cis-eGenes</text>
+  </g>
+</svg>

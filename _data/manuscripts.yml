@@ -1,0 +1,44 @@
+ongoing:
+  - id: pending-frozen-single-cell
+    title: "Cross-domain confidence reliability and remappability of frozen single-cell representations"
+    authors: "G. Weng, D. Zhu, Y. Zhao, P. C. Martin, H. Kim, J. Jung, et al."
+    paper_url: https://www.biorxiv.org/content/10.64898/2026.08.31.748446v1
+    venue: bioRxiv
+    preprint_date: "2026-09-04"
+  - id: pending-degree-gear
+    status: In preparation
+    title: "Degree-GEAR — Degree-Preserving Graph Evidence Aggregation and Reweighting for Spatial Domain Identification"
+    authors: "J. Jung and K. J. Won"
+    code_url: https://github.com/junghyunJJ/Degree-GEAR
+  - id: pending-deepmast
+    status: In preparation
+    title: "DeepMAST: An Evidence-Governed Agent Harness for Literature-Grounded Interpretation and Drug-Target Prioritization in Spatial Transcriptomics"
+    authors: "J. Jung, T. Parimon, et al."
+    code_url: https://github.com/junghyunJJ/DeepMAST
+  - id: pending-spix
+    title: "SPIX: Superpixel-based multiscale framework for scalable spatial transcriptomics analysis"
+    authors: "H. Choi, H. Kim, J. Jung, et al."
+  - id: pending-persona-ai
+    title: "PersonaAI: An Interactive Agentic-AI Framework for Autonomous Hypothesis Generation and Validation in Aging"
+    authors: "B. Cho, G.-Y. Lee, J. Jung, et al."
+    paper_url: https://www.biorxiv.org/content/10.64898/2026.01.16.699755v1
+    venue: bioRxiv
+    preprint_date: "2026-01-20"
+  - id: pending-cell-interactions
+    title: "Identifying Context-Specific Cell-Cell Interaction Genes Without Ligand-Receptor Databases from Spatial Transcriptomics"
+    authors: "H. Kim, B. Park, J. Jung, et al."
+    paper_url: https://www.biorxiv.org/content/10.64898/2026.05.08.723913v1
+    venue: bioRxiv
+    preprint_date: "2026-05-12"
+  - id: pending-graves-network
+    title: "Decoding polygenic effects in Graves’ disease through cell-type-specific network diffusion"
+    authors: "Jaeseung Song, Junghyun Jung, Jong Wha Joo, Wonhee Jang"
+
+preprints:
+  - id: preprint-hla-typing
+    status: Preprint
+    title: "A rigorous benchmarking of alignment-based HLA typing algorithms for RNA-seq data"
+    authors: "D. Yu, R. Ayyala, S. H. Sadek, L. Chittampalli, H. Farooq, J. Jung, et al."
+    venue: bioRxiv
+    paper_url: https://doi.org/10.1101/2023.05.22.541750
+    preprint_date: "2023-05-24"

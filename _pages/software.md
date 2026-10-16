@@ -9,6 +9,6 @@ nav_order: 3
 
 I build software that turns research methods into reusable tools, with an emphasis on biological data analysis, retrieval-supported workflows, and practical interfaces for everyday research tasks.
 
-The projects below are drawn from the existing repository list for this site: SGCP-RAG, VoiceInput, and MARS.
+Selected projects span spatial omics, statistical genetics, retrieval-augmented generation, reasoning systems, and research productivity.
 
 {% include software_cards.html %}

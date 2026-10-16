@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-labelledby="ai-title ai-desc">
+  <title id="ai-title">Agent harness for biological discovery</title>
+  <desc id="ai-desc">Task-specific skills define analysis workflows and MCP connects tools and knowledge sources. Custom guardrails surround the harness. Analysis steps are validated: passing results reach evidence-grounded outputs, while failed steps enter a bounded repair loop before validation is repeated. Unsupported claims are withheld. This is a conceptual overview.</desc>
+  <defs>
+    <marker id="ai-arrow" viewBox="0 0 8 8" refX="6.5" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 6 4 1 7" fill="none" stroke="#a4c5b2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="ai-repair-arrow" viewBox="0 0 8 8" refX="6.5" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 6 4 1 7" fill="none" stroke="#b4a6cb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="640" height="440" rx="24" fill="#18221d"/>
+  <rect x="24" y="24" width="592" height="344" rx="20" fill="none" stroke="#405e4c" stroke-width="2" stroke-dasharray="7 5"/>
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="500">
+    <text x="48" y="61" fill="#e8ece6" font-size="26">Agent harness</text>
+    <path d="m335 42 10-4 10 4v10c0 8-10 13-10 13s-10-5-10-13Zm5 9 4 4 7-8" fill="none" stroke="#a4c5b2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="367" y="60" fill="#a4c5b2" font-size="24">Custom guardrails</text>
+    <g fill="#24362b" stroke="#405e4c" stroke-width="1.5">
+      <rect x="48" y="88" width="244" height="70" rx="14"/>
+      <rect x="348" y="88" width="244" height="70" rx="14"/>
+      <rect x="48" y="206" width="244" height="70" rx="14"/>
+      <rect x="348" y="206" width="244" height="70" rx="14"/>
+    </g>
+    <g fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M73 109h27v29H73Zm7 8h13m-13 7h13m-13 7h8" stroke="#a4c5b2"/>
+      <path d="M374 123h27m-14-14v28" stroke="#8eb7c5"/>
+      <g fill="#18221d" stroke="#8eb7c5">
+        <circle cx="374" cy="123" r="5"/>
+        <circle cx="401" cy="123" r="5"/>
+        <circle cx="387" cy="109" r="5"/>
+        <circle cx="387" cy="137" r="5"/>
+      </g>
+      <path d="M74 251v-10m9 10v-24m9 24v-17" stroke="#8eb7c5"/>
+      <circle cx="383" cy="241" r="13" stroke="#a4c5b2"/>
+      <path d="m377 241 4 4 8-9" stroke="#a4c5b2"/>
+    </g>
+    <g fill="#e8ece6" font-size="26" text-anchor="middle">
+      <text x="190" y="133">Skills</text>
+      <text x="486" y="133">MCP</text>
+      <text x="190" y="250">Run analysis</text>
+      <text x="488" y="250">Validate</text>
+    </g>
+    <g fill="none" stroke="#a4c5b2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M470 158v24H170"/>
+      <path d="M170 158v42" marker-end="url(#ai-arrow)"/>
+      <path d="M292 241h50" marker-end="url(#ai-arrow)"/>
+    </g>
+    <rect x="164" y="304" width="274" height="48" rx="14" fill="#24362b" stroke="#b4a6cb" stroke-width="1.5"/>
+    <path d="M203 322a9 9 0 1 0 2 10m-2-16v6h-6" fill="none" stroke="#b4a6cb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="315" y="337" fill="#e8ece6" font-size="24" text-anchor="middle">Bounded repair</text>
+    <g fill="none" stroke="#b4a6cb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ai-repair-arrow)">
+      <path d="M470 276v52h-26"/>
+      <path d="M164 328h-54v-46"/>
+    </g>
+    <text x="480" y="306" fill="#b4a6cb" font-size="22">Fail</text>
+    <path d="M556 276v98h-46v5" fill="none" stroke="#a4c5b2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ai-arrow)"/>
+    <text x="567" y="316" fill="#a4c5b2" font-size="22">Pass</text>
+    <rect x="110" y="384" width="440" height="40" rx="13" fill="#24362b" stroke="#405e4c" stroke-width="1.5"/>
+    <circle cx="144" cy="404" r="10" fill="#a4c5b2"/>
+    <path d="m139 404 3 3 6-7" fill="none" stroke="#18221d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="340" y="413" fill="#e8ece6" font-size="24" text-anchor="middle">Evidence-grounded outputs</text>
+  </g>
+</svg>

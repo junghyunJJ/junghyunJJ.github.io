@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-labelledby="multiomics-title multiomics-desc">
+  <title id="multiomics-title">Ischemic stroke: integrating genetic and molecular evidence</title>
+  <desc id="multiomics-desc">Conceptual overview of stroke GWAS and molecular QTL evidence, including RNA expression, splicing, enhancer RNA, and proteins. Multi-omic integration prioritizes risk genes, relevant tissues, and potential therapeutic targets. Association points, molecular tracks, and networks are illustrative rather than measured results.</desc>
+  <defs>
+    <marker id="multiomics-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#a4c5b2" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="598" height="478" rx="20" fill="#18221d" stroke="#384e40" stroke-width="2"/>
+  <g font-family="system-ui, sans-serif">
+    <text x="26" y="49" fill="#e8ece6" font-size="34" font-weight="600">Ischemic stroke</text>
+    <text x="26" y="80" fill="#a8b4ad" font-size="24">Multi-omic evidence</text>
+    <rect x="24" y="102" width="552" height="111" rx="12" fill="#213028" stroke="#384e40"/>
+    <path d="M300 118V197" stroke="#384e40"/>
+    <text x="42" y="134" fill="#a4c5b2" font-size="26">GWAS</text>
+    <text x="322" y="134" fill="#8eb7c5" font-size="26">Molecular QTLs</text>
+    <path d="M42 194H278" stroke="#53695b" stroke-width="2"/>
+    <g fill="#a4c5b2">
+      <circle cx="48" cy="184" r="3.5"/><circle cx="58" cy="189" r="3"/>
+      <circle cx="70" cy="180" r="3.5"/><circle cx="81" cy="184" r="3.5"/>
+      <circle cx="93" cy="177" r="3.5"/><circle cx="104" cy="185" r="3.5"/>
+      <circle cx="116" cy="174" r="3.5"/><circle cx="127" cy="160" r="4"/>
+      <circle cx="136" cy="147" r="5"/><circle cx="146" cy="163" r="4"/>
+      <circle cx="157" cy="176" r="3.5"/><circle cx="168" cy="185" r="3.5"/>
+      <circle cx="181" cy="181" r="3.5"/><circle cx="194" cy="189" r="3"/>
+      <circle cx="205" cy="179" r="3.5"/><circle cx="218" cy="184" r="3.5"/>
+      <circle cx="230" cy="166" r="4"/><circle cx="240" cy="155" r="5"/>
+      <circle cx="251" cy="173" r="3.5"/><circle cx="263" cy="183" r="3.5"/>
+      <circle cx="274" cy="187" r="3"/>
+    </g>
+    <g fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M324 152H340L347 141L354 152H380L387 139L394 152H421L429 145L436 152H460L466 141L473 152H554" stroke="#8eb7c5"/>
+      <path d="M324 167H351Q374 140 398 167H435Q458 143 481 167H554" stroke="#b4a6cb"/>
+      <path d="M324 180H374L382 168L390 180H435L442 170L449 180H506L513 167L520 180H554" stroke="#a4c5b2"/>
+      <path d="M324 195H554" stroke="#53695b"/>
+    </g>
+    <g fill="#d7bc87">
+      <rect x="334" y="190" width="23" height="10" rx="3"/>
+      <rect x="378" y="190" width="37" height="10" rx="3"/>
+      <rect x="447" y="190" width="20" height="10" rx="3"/>
+      <rect x="494" y="190" width="45" height="10" rx="3"/>
+    </g>
+    <g fill="none" stroke="#a4c5b2" stroke-width="2" marker-end="url(#multiomics-arrow)">
+      <path d="M162 213V228Q162 236 175 236H194V242"/>
+      <path d="M438 213V228Q438 236 425 236H406V242"/>
+    </g>
+    <rect x="128" y="245" width="344" height="52" rx="12" fill="#2b4335" stroke="#719880" stroke-width="1.5"/>
+    <text x="300" y="279" text-anchor="middle" fill="#e8ece6" font-size="26" font-weight="500">Multi-omic integration</text>
+    <g fill="none" stroke="#719880" stroke-width="2" marker-end="url(#multiomics-arrow)">
+      <path d="M300 297V313H108V337"/>
+      <path d="M300 297V337"/>
+      <path d="M300 313H492V337"/>
+    </g>
+    <g fill="#213028" stroke="#384e40">
+      <rect x="24" y="344" width="168" height="104" rx="12"/>
+      <rect x="216" y="344" width="168" height="104" rx="12"/>
+      <rect x="408" y="344" width="168" height="104" rx="12"/>
+    </g>
+    <g fill="none" stroke="#719880" stroke-width="2">
+      <path d="M66 369L105 387L148 367M66 369L78 402L105 387L142 403L148 367M78 402L142 403"/>
+    </g>
+    <g fill="#a4c5b2">
+      <circle cx="66" cy="369" r="7"/><circle cx="105" cy="387" r="10"/>
+      <circle cx="148" cy="367" r="6"/><circle cx="78" cy="402" r="6"/><circle cx="142" cy="403" r="7"/>
+    </g>
+    <g fill="none" stroke="#8eb7c5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M279 362C268 354 259 360 258 367C248 368 247 379 252 384C247 393 252 401 261 401C265 410 276 407 280 401C285 408 296 407 299 399C307 397 309 387 303 381C308 373 302 364 294 365C290 357 282 357 279 362Z"/>
+      <path d="M279 365V400M260 375Q272 372 272 383M288 371Q288 381 299 380M260 391Q269 386 273 396"/>
+      <path d="M329 360V385L318 404M329 385L342 404M339 360V383L352 400M339 383L330 403" stroke="#b4a6cb"/>
+    </g>
+    <g fill="none" stroke="#d7bc87" stroke-width="2.5">
+      <circle cx="478" cy="382" r="19"/><circle cx="478" cy="382" r="9"/>
+      <path d="M478 355V363M478 401V410M451 382H459M497 382H505M489 376L515 361"/>
+      <rect x="509" y="357" width="37" height="16" rx="8" transform="rotate(-34 509 357)"/>
+    </g>
+    <g text-anchor="middle" fill="#e8ece6" font-size="23">
+      <text x="108" y="435">Risk genes</text><text x="300" y="435">Tissues</text><text x="492" y="435">Targets</text>
+    </g>
+  </g>
+</svg>

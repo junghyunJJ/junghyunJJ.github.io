@@ -1,22 +1,44 @@
-eyebrow: "Computational biology and agentic AI"
-tagline: "Computational methods and agentic AI to understand biology."
-introduction: "I am a Research Data Scientist in the Department of Computational Biomedicine at Cedars-Sinai Medical Center."
+eyebrow: "AI × Bioinformatics × Computational Biology"
+tagline: "Building AI agents and foundation models for spatial omics, genetics, and clinical data."
+introduction: "I study how AI can learn from molecular and clinical data, connect scientific evidence, and generate testable hypotheses about human disease."
 research:
   - id: agentic-ai
     label: "01"
-    title: "Agentic AI for biological analysis"
-    description: "Building multi-agent systems for more autonomous biological data analysis."
-    detail: "I work on agentic AI systems for biological data analysis, with interest in workflows that coordinate retrieval, reasoning, and analysis tools."
+    title: "AI Agents for Biological Discovery"
+    question: "How can biological interpretations from omics analysis be checked against supporting evidence?"
+    description: "Building agent harnesses for context-aware, evidence-grounded biological discovery."
+    detail: "I design agent harnesses that combine task-specific skills, MCP-connected tools and knowledge sources, custom guardrails, and bounded repair loops driven by validation. The workflows adapt to cell and tissue context, with biological interpretations checked against supporting evidence."
+    image: "/assets/img/research/ai-agents.svg"
+    image_alt: "An agent harness combines task-specific skills and MCP-connected resources within custom guardrails. Validation sends failed steps through a bounded repair loop and passes supported results to the output."
     tags:
-      - "Agentic AI"
-      - "Multi-agent systems"
-      - "Retrieval-augmented generation"
+      - "Task-specific skills"
+      - "MCP"
+      - "Custom guardrails"
+      - "Validation & repair"
+    related_papers: []
+    related_software: true
+  - id: ehr-foundation-models
+    label: "02"
+    title: "Foundation Models for Electronic Health Records"
+    question: "How can we learn shared clinical representations from notes and structured EHR data?"
+    description: "Building clinical foundation models by aligning clinical notes and structured EHR data through contrastive learning."
+    detail: "Clinical notes provide narrative context, while structured EHR data capture clinical measurements and events. I use contrastive learning to connect these complementary views and learn shared clinical representations."
+    image: "/assets/img/research/ehr-foundation-models.svg"
+    image_alt: "Clinical notes and structured EHR data feed a contrastive learning process that aligns their representations in a shared clinical space."
+    tags:
+      - "Foundation models"
+      - "Contrastive learning"
+      - "Clinical notes"
+      - "Structured EHR"
     related_papers: []
   - id: spatial-omics
-    label: "02"
-    title: "Spatial and single-cell omics methods"
+    label: "03"
+    title: "Spatial & Single-cell Omics"
+    question: "How do cell states and genetic effects vary across tissue regions?"
     description: "Developing computational tools for spatial omics and single-cell eQTL data."
     detail: "I am interested in methods that connect molecular measurements to cell states, tissue context, and regulatory variation, building on my experience with functional genomic data."
+    image: "/assets/img/research/spatial-omics.svg"
+    image_alt: "Spatially arranged cells in a tissue linked to a gene-expression matrix to connect cell states with tissue context."
     tags:
       - "Spatial omics"
       - "Single-cell analysis"
@@ -24,10 +46,13 @@ research:
     related_papers:
       - jia
   - id: integrative-genomics
-    label: "03"
-    title: "Integrative genomics of complex traits"
+    label: "04"
+    title: "Integrative Genomics"
+    question: "Which genes and molecular processes link genetic variation to complex disease?"
     description: "Combining GWAS, QTL, transcriptomic, proteomic, and multi-omics data to study disease mechanisms."
     detail: "I bring together doctoral training and postdoctoral work on TWAS, GWAS, WES, and multi-omics association studies to study complex traits and diseases."
+    image: "/assets/img/research/integrative-genomics.svg"
+    image_alt: "GWAS, RNA, and protein signals integrated into a network connecting genes and disease biology."
     tags:
       - "TWAS and GWAS"
       - "Multi-omics"

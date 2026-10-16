@@ -172,6 +172,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - docs
+  - tests
+  - NAIS.md
 keep_files:
   - CNAME
   - .nojekyll

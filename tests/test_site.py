@@ -61,8 +61,19 @@ class SiteTests(unittest.TestCase):
             if src.startswith("/"):
                 self.assertTrue((SITE / unquote(src.removeprefix(BASEURL)).lstrip("/")).is_file(), src)
 
+    def test_every_published_article_has_a_distinct_accessible_preview(self):
+        keys = set(re.findall(r"@\w+\s*\{\s*([^,]+),", (ROOT / "_bibliography/papers.bib").read_text()))
+        images = [i for i in self.page("publications").elements("img") if "publication_preview" in i.get("src", "")]
+        self.assertEqual(len(images), len(keys), "Each published article needs a preview")
+        self.assertEqual(len({i["src"] for i in images}), len(keys), "Each paper needs its own figure")
+        self.assertNotRegex((SITE / "publications/index.html").read_text(), r'<p class="publication-summary">\s*</p>')
+        for image in images:
+            self.assertTrue(image.get("alt"), image["src"])
+            path = unquote(urlsplit(image["src"]).path).removeprefix(BASEURL)
+            self.assertTrue((SITE / path.lstrip("/")).is_file(), image["src"])
+
     def test_new_pages_have_no_duplicate_ids_or_broken_internal_links(self):
-        for route in ("", "research", "software"):
+        for route in ("", "research", "publications", "software"):
             page = self.page(route)
             ids = [attrs["id"] for _, attrs in page.tags if "id" in attrs]
             self.assertEqual([key for key, count in Counter(ids).items() if count > 1], [])
@@ -83,6 +94,11 @@ class SiteTests(unittest.TestCase):
         path = SITE / "assets/pdf/JJ_CV.pdf"
         self.assertTrue(path.is_file())
         self.assertEqual(path.read_bytes()[:5], b"%PDF-")
+
+    def test_internal_development_files_are_not_published(self):
+        for path in ("docs", "tests", "NAIS.md"):
+            with self.subTest(path=path):
+                self.assertFalse((SITE / path).exists(), f"Internal file published: {path}")
 
     def test_dark_default_is_rendered_before_javascript_loads(self):
         page = self.page()
