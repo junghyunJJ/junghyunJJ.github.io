@@ -2,30 +2,26 @@
     <header>
 
       <!-- Nav Bar -->
-      <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
+      <nav id="navbar" aria-label="Primary navigation" class="navbar navbar-light navbar-expand-md {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
-          {% if page.permalink != '/' -%}
-          <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-            {%- if site.title == "blank" -%}
-              {%- if site.first_name -%}
-                <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
+          <a class="navbar-brand title" href="{{ '/' | relative_url }}">
+            <span class="brand-monogram" aria-hidden="true">JJ</span>
+            <span class="brand-name">
+              {%- if site.title == "blank" -%}
+                {%- if site.first_name -%}
+                  <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
+                {%- endif -%}
+                {%- if site.middle_name -%}
+                  {{- site.middle_name -}}&nbsp;
+                {%- endif -%}
+                {%- if site.last_name -%}
+                  {{- site.last_name -}}
+                {%- endif -%}
+              {%- else -%}
+                {{- site.title -}}
               {%- endif -%}
-              {%- if site.middle_name -%}
-                {{- site.middle_name -}}&nbsp;
-              {%- endif -%}
-              {%- if site.last_name -%}
-                {{- site.last_name -}}
-              {%- endif -%}
-            {%- else -%}
-              {{- site.title -}}
-            {%- endif -%}
+            </span>
           </a>
-          {%- elsif site.enable_navbar_social -%}
-          <!-- Social Icons -->
-          <div class="navbar-brand social">
-            {% include social.html %}
-          </div>
-          {% endif %}
           <!-- Navbar Toggle -->
           <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -45,7 +41,7 @@
 
               <!-- About -->
               <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}
+                <a class="nav-link" href="{{ '/' | relative_url }}" {% if page.permalink == '/' %}aria-current="page"{% endif %}>Home
                   {%- if page.permalink == '/' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
@@ -85,7 +81,7 @@
               </li>
               {%- else %}
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
-                <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
+                <a class="nav-link" href="{{ p.nav_url | default: p.url | relative_url }}" {% if page.title == p.title %}aria-current="page"{% endif %}>{{ p.title }}
                   {%- if page.title == p.title -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
@@ -98,9 +94,9 @@
 
               <!-- Toogle theme mode -->
               <li class="toggle-container">
-                <button id="light-toggle" title="Change theme">
-                  <i class="fas fa-moon"></i>
-                  <i class="fas fa-sun"></i>
+                <button id="light-toggle" type="button" title="Toggle color theme" aria-label="Toggle color theme">
+                  <i class="fas fa-moon" aria-hidden="true"></i>
+                  <i class="fas fa-sun" aria-hidden="true"></i>
                 </button>
               </li>
               {%- endif %}

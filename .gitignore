@@ -3,6 +3,10 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.omx/
+.omc/
+NAIS.md
+__pycache__/
 .DS_store
 .ruby-version
 .tweet-cache

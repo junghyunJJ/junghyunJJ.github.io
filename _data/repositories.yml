@@ -2,12 +2,51 @@ github_users:
   - junghyunJJ
   
 github_repos:
+  - name: junghyunJJ/DeepMAST
+    title: DeepMAST
+    description: An evidence-guided multi-agent framework for spatial transcriptomics analysis, interpretation, and candidate drug target prioritization.
+    resources:
+      - label: Quick start
+        url: https://github.com/junghyunJJ/DeepMAST#5-quick-start
+      - label: Documentation
+        url: https://github.com/junghyunJJ/DeepMAST#6-usage-in-detail
   - name: junghyunJJ/sgcp-rag
     title: SGCP-RAG
     description: A self-correcting, SNI-guided RAG system with LangGraph, pgvector, and MCP integration.
-  - name: junghyunJJ/voiceinput
-    title: VoiceInput
-    description: A macOS menu bar app that converts speech to text using on-device AI.
+    resources:
+      - label: Quick start
+        url: https://github.com/junghyunJJ/sgcp-rag#5-quick-start
+      - label: Documentation
+        url: https://github.com/junghyunJJ/sgcp-rag#6-usage-in-detail
+  - name: junghyunJJ/ReasonLineage
+    title: ReasonLineage
+    description: An evolutionary reasoning engine that evaluates candidate reasoning with independent, context-isolated LLM judges.
+    resources:
+      - label: Quick start
+        url: https://github.com/junghyunJJ/ReasonLineage#5-quick-start
+      - label: Documentation
+        url: https://github.com/junghyunJJ/ReasonLineage#6-usage-in-detail
+  - name: junghyunJJ/Degree-GEAR
+    title: Degree-GEAR
+    description: A degree-preserving graph framework for label-free spatial domain identification using frozen biomedical language models.
+    resources:
+      - label: Quick start
+        url: https://github.com/junghyunJJ/Degree-GEAR#3-quick-start
+      - label: Documentation
+        url: https://github.com/junghyunJJ/Degree-GEAR#4-usage-in-detail
   - name: junghyunJJ/marsR
     title: MARS
     description: An R package for a model-based association test that leverages allelic heterogeneity to improve GWAS power.
+    resources:
+      - label: Paper
+        url: https://doi.org/10.1186/s13059-021-02353-8
+      - label: Quick start
+        url: https://github.com/junghyunJJ/marsR#4-quick-start
+  - name: junghyunJJ/voiceinput
+    title: VoiceInput
+    description: A macOS menu bar app that converts speech to text using on-device AI.
+    resources:
+      - label: Quick start
+        url: https://github.com/junghyunJJ/voiceinput#installation
+      - label: Documentation
+        url: https://github.com/junghyunJJ/voiceinput#usage

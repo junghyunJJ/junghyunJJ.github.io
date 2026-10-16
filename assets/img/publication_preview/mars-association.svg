@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-labelledby="association-title association-desc">
+  <title id="association-title">MARS: multi-variant evidence for locus association</title>
+  <desc id="association-desc">Illustrative GWAS summary-statistic signals at one locus feed alternative causal configurations, which are considered together in a MARS locus association test. The signals and configurations are conceptual illustrations, not measured results or a linkage-disequilibrium matrix.</desc>
+  <defs>
+    <marker id="association-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M1 1 8 5 1 9" fill="none" stroke="#a4c5b2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <linearGradient id="association-signal-fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a4c5b2" stop-opacity=".11"/>
+      <stop offset="1" stop-color="#a4c5b2" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="598" height="478" rx="20" fill="#18221d" stroke="#384e40" stroke-width="2"/>
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="28" y="49" fill="#e8ece6" font-size="34" font-weight="700" letter-spacing="1">MARS</text>
+    <text x="28" y="82" fill="#a8b4ad" font-size="24">Multi-variant association</text>
+    <rect x="24" y="104" width="552" height="148" rx="14" fill="#1e2b24" stroke="#384e40" stroke-width="1.5"/>
+    <text x="42" y="139" fill="#e8ece6" font-size="27" font-weight="600">Variant signals</text>
+    <path d="M44 192H556M44 224H556" fill="none" stroke="#384e40" stroke-width="1" stroke-dasharray="4 6"/>
+    <path d="M44 236H556" fill="none" stroke="#a8b4ad" stroke-width="2"/>
+    <path d="M56 236 56 222 92 211 128 225 164 165 200 219 236 205 272 227 308 183 344 217 380 220 416 154 452 211 488 221 524 207 548 228 548 236Z" fill="url(#association-signal-fill)"/>
+    <g fill="#a8b4ad" stroke="#a8b4ad" stroke-width="2" opacity=".7">
+      <path d="M56 236V222M92 236V211M128 236V225M200 236V219M236 236V205M272 236V227M344 236V217M380 236V220M452 236V211M488 236V221M524 236V207M548 236V228"/>
+      <circle cx="56" cy="222" r="3"/><circle cx="92" cy="211" r="3"/><circle cx="128" cy="225" r="3"/><circle cx="200" cy="219" r="3"/><circle cx="236" cy="205" r="3"/><circle cx="272" cy="227" r="3"/><circle cx="344" cy="217" r="3"/><circle cx="380" cy="220" r="3"/><circle cx="452" cy="211" r="3"/><circle cx="488" cy="221" r="3"/><circle cx="524" cy="207" r="3"/><circle cx="548" cy="228" r="3"/>
+    </g>
+    <g stroke-width="3">
+      <path d="M164 236V165" stroke="#a4c5b2"/><circle cx="164" cy="165" r="8" fill="#a4c5b2"/>
+      <path d="M308 236V183" stroke="#8eb7c5"/><circle cx="308" cy="183" r="8" fill="#8eb7c5"/>
+      <path d="M416 236V154" stroke="#d7bc87"/><circle cx="416" cy="154" r="8" fill="#d7bc87"/>
+    </g>
+    <path d="M300 253V264Q300 269 292 269H188Q180 269 180 277" fill="none" stroke="#a4c5b2" stroke-width="2.5" marker-end="url(#association-arrow)"/>
+    <rect x="24" y="286" width="310" height="166" rx="14" fill="#1e2b24" stroke="#384e40" stroke-width="1.5"/>
+    <text x="40" y="321" fill="#e8ece6" font-size="26" font-weight="600">Causal configurations</text>
+    <g fill="none" stroke="#384e40" stroke-width="1.3">
+      <rect x="40" y="337" width="278" height="29" rx="7"/>
+      <rect x="40" y="375" width="278" height="29" rx="7"/>
+      <rect x="40" y="413" width="278" height="25" rx="7"/>
+    </g>
+    <g fill="#18221d" stroke="#617369" stroke-width="1.5">
+      <circle cx="63" cy="352" r="7"/><circle cx="108" cy="352" r="7"/><circle cx="153" cy="352" r="7"/><circle cx="198" cy="352" r="7"/><circle cx="243" cy="352" r="7"/><circle cx="288" cy="352" r="7"/>
+      <circle cx="63" cy="390" r="7"/><circle cx="108" cy="390" r="7"/><circle cx="153" cy="390" r="7"/><circle cx="198" cy="390" r="7"/><circle cx="243" cy="390" r="7"/><circle cx="288" cy="390" r="7"/>
+      <circle cx="63" cy="426" r="7"/><circle cx="108" cy="426" r="7"/><circle cx="153" cy="426" r="7"/><circle cx="198" cy="426" r="7"/><circle cx="243" cy="426" r="7"/><circle cx="288" cy="426" r="7"/>
+    </g>
+    <g>
+      <circle cx="108" cy="352" r="7" fill="#a4c5b2"/>
+      <circle cx="108" cy="390" r="7" fill="#a4c5b2"/><circle cx="198" cy="390" r="7" fill="#8eb7c5"/>
+      <circle cx="108" cy="426" r="7" fill="#a4c5b2"/><circle cx="198" cy="426" r="7" fill="#8eb7c5"/><circle cx="243" cy="426" r="7" fill="#d7bc87"/>
+    </g>
+    <path d="M335 369H360" fill="none" stroke="#a4c5b2" stroke-width="2.5" marker-end="url(#association-arrow)"/>
+    <rect x="366" y="286" width="210" height="166" rx="14" fill="#23342a" stroke="#a4c5b2" stroke-width="1.8"/>
+    <text x="471" y="322" text-anchor="middle" fill="#e8ece6" font-size="28" font-weight="700">MARS test</text>
+    <g fill="none" stroke-width="2.5" stroke-linecap="round">
+      <path d="M407 341 442 357H468" stroke="#a4c5b2"/>
+      <path d="M407 357H468" stroke="#8eb7c5"/>
+      <path d="M407 373 442 357" stroke="#d7bc87"/>
+      <rect x="477" y="341" width="49" height="32" rx="8" fill="#a4c5b2" fill-opacity=".12" stroke="#a4c5b2"/>
+      <path d="m489 356 8 7 17-15" stroke="#a4c5b2"/>
+    </g>
+    <text x="471" y="405" text-anchor="middle" fill="#e8ece6" font-size="26" font-weight="600">Locus</text>
+    <text x="471" y="435" text-anchor="middle" fill="#e8ece6" font-size="26" font-weight="600">association</text>
+  </g>
+</svg>

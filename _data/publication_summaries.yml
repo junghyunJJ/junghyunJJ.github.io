@@ -1,0 +1,97 @@
+jia:
+  preview_alt: "JIA immunogenomics: gene, protein, and HLA evidence integrated with single-cell T-cell populations."
+  role: "Co-corresponding author"
+  contribution: "Co-designed the study, performed data analyses, and co-wrote the manuscript."
+  summary: "Integrated TWAS, PWAS, genetic architecture, HLA typing, and single-cell immune repertoire analyses to prioritize genes, proteins, and T cell populations associated with juvenile idiopathic arthritis risk."
+  topic: "Integrative immunogenomics"
+zhang2023scalable:
+  preview_alt: "FactorGo decomposes GWAS summary data into latent pleiotropic factors and trait loadings linked to tissue and shared disease biology."
+  summary: "Introduced FactorGo, a scalable variational factor analysis method for finding pleiotropic components across thousands of GWAS summary statistics and connecting them to tissue and disease biology."
+  topic: "Scalable statistical genetics"
+jung2023novel:
+  preview_alt: "Stroke multi-omics: GWAS and molecular QTL evidence integrated to prioritize risk genes, relevant tissues, and potential therapeutic targets."
+  role: "First & co-corresponding author"
+  contribution: "Led the study narrative, computational analyses, figure development, and manuscript writing."
+  summary: "Integrated ischemic stroke GWAS with molecular QTL resources across many tissues to prioritize risk genes, regulatory mechanisms, shared traits, and potential therapeutic candidates."
+  topic: "Integrative multi-omics"
+mars:
+  preview_alt: "MARS: multiple variant signals and alternative causal configurations combined in a locus association test."
+  role: "Co-first author"
+  contribution: "Performed computational experiments to evaluate MARS and co-wrote the manuscript."
+  summary: "Developed MARS, a summary-statistics association test that models allelic heterogeneity to improve power for detecting risk loci with multiple causal variants."
+  topic: "GWAS method development"
+
+mrggi:
+  preview_alt: "MR-GGI uses cis-SNP instruments and inverse-variance weighted Mendelian randomization to infer gene–gene interactions and functional clusters."
+
+song2024:
+  preview_alt: "RNA sequencing across the colorectal adenoma–carcinoma sequence reveals innate immune shifts and reduced plasma B-cells and immunoglobulin diversity."
+
+choi2020fully:
+  preview_alt: "NICER partitions genotype and expression matrices for parallel NICE analysis, producing eQTL maps that reveal one-variant–many-gene hotspots."
+
+lee2020fully:
+  preview_alt: "GAMMAR runs population-aware GAMMA mixed-model tests in parallel on multiple phenotypes and genotypes to locate yeast trans-regulatory hotspots."
+
+dupuytren:
+  preview_alt: "A WGCNA Dupuytren’s disease signature links expression to unfolded protein response and GTEx-derived trans-hotspots and cis-eGenes."
+
+butler2022exome:
+  preview_alt: "Exome and genome cohorts feed gene burden testing, highlighting rare deleterious TLR7 variants associated with severe COVID-19."
+
+covid2022first:
+  preview_alt: "International GWAS meta-analysis maps updated COVID-19 susceptibility and severity loci, including SFTPD, MUC5B and ACE2."
+
+kousathanas2022whole:
+  preview_alt: "Whole-genome case-control study integrates WGS, expression and MR evidence to implicate viral control and inflammatory lung injury with coagulation in critical COVID-19."
+
+fallerini2021common:
+  preview_alt: "Common through ultra-rare exonic variants become Boolean gene features, are selected using LASSO, and form an interpretable Integrated PolyGenic Score for COVID-19 severity."
+
+d2021sars:
+  preview_alt: "GWAS and expression QTL evidence are combined using colocalization and fine mapping to connect COVID-19 susceptibility and severity signals to gene expression across tissues."
+
+povysil2021rare:
+  preview_alt: "Sequencing of severe and mild COVID-19 cases and ancestry-matched controls tests rare pLOF variants in candidate type I IFN genes; no enrichment or association was observed in these cohorts."
+
+shim2022silico:
+  preview_alt: "cALD and Alzheimer’s expression data converge through GSEA, WGCNA, and protein interaction analysis on shared candidate inflammatory genes."
+
+song2022integrative:
+  preview_alt: "Atopic dermatitis TWAS and expression studies form a skin signature for Connectivity Map drug repositioning."
+
+kim2021integrative:
+  preview_alt: "Systemic JIA microarray and RNA-seq data yield up- and down-regulated co-expression clusters for candidate drug repositioning."
+
+song2019meta:
+  preview_alt: "Polymyositis and dermatomyositis expression datasets combine in a meta-analysis that highlights interferon signaling and candidate gene–variant links."
+
+jung2018meta:
+  preview_alt: "Human white adipose expression and experimental insulin-resistance models support a cross-species signature of thiazolidinedione and metformin response."
+
+jung2017meta2:
+  preview_alt: "PCB77 microarray datasets are integrated by Rank Product, highlighting protein stress, apoptosis, and HSP90AB1 and HSPA5 interaction hubs."
+
+jung2017meta:
+  preview_alt: "BPA microarray and RNA-seq datasets are combined after batch adjustment, with disease similarity and expression enrichment showing breast cancer overlap."
+
+wiemels2022cytomegalovirus:
+  preview_alt: "Conceptual maternal and neonatal sample diagram connecting CMV protein and cytokine profiles with childhood ALL association."
+
+ijms22020712:
+  preview_alt: "Spider RNA and augmented peptide sequences feed a CNN that identifies candidate neurotoxic peptides for SH-SY5Y cell assays."
+
+lee2019molecular:
+  preview_alt: "Modified gold nanoparticle surface features connect to membrane disruption, cytoskeletal effects, DNA damage, and cell-cycle changes."
+
+kim2017modelling:
+  preview_alt: "Mouse and human APOE ε3/4 induced-neuron models show APP, amyloid-beta42, and tau signatures; DSG2 knockdown rescues APP processing."
+
+yoo2017electromagnetized:
+  preview_alt: "EMF-stimulated gold nanoparticles connect Brd2 and H3K27 acetylation to dopamine-neuron reprogramming and benefit in Parkinson disease mouse models."
+
+lee2017inhibitory:
+  preview_alt: "SphK2 inhibitors SG12 and SG14 are connected to HeLa cell tracking, reduced motility, and altered actin organization."
+
+kang2016galectin:
+  preview_alt: "Galectin-3 interaction with NICD1 connects nuclear Notch signaling and Hes1/Hey1 expression to ovarian cancer stem-cell maintenance."
