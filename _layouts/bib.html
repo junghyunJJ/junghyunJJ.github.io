@@ -65,7 +65,7 @@
               {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
             {%- endif -%}
             {%- if author_is_self -%}
-              <em>{{author.first}} {{author.last}}</em>
+              <em class="author-self{% if forloop.first or work_summary.role contains 'Co-first author' %} author-first{% endif %}">{{author.first}} {{author.last}}</em>
             {%- else -%}
               {%- if coauthor_url -%}
                 <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
@@ -82,25 +82,40 @@
               {%- assign more_authors_hide = more_authors_hide | append: "s" -%}
             {%- endif -%}
             {%- assign more_authors_show = '' -%}
+            {%- assign more_authors_html = '' -%}
             {%- for author in entry.author_array offset: author_array_limit -%}
               {%- assign more_authors_show = more_authors_show | append: author.first | append: " " | append: author.last -%}
+              {%- assign hidden_author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+              {%- capture hidden_author -%}
+                {%- if site.scholar.last_name contains hidden_author_last_name and site.scholar.first_name contains author.first -%}
+                  <em class="author-self{% if work_summary.role contains 'Co-first author' %} author-first{% endif %}">{{ author.first | escape }} {{ author.last | escape }}</em>
+                {%- else -%}
+                  {{ author.first | escape }} {{ author.last | escape }}
+                {%- endif -%}
+              {%- endcapture -%}
+              {%- assign more_authors_html = more_authors_html | append: hidden_author -%}
               {%- unless forloop.last -%}
                 {%- assign more_authors_show = more_authors_show | append: ", " -%}
+                {%- assign more_authors_html = more_authors_html | append: ", " -%}
               {%- endunless -%}
             {%- endfor -%}
             , and
             <span
                 class="more-authors"
+                data-authors-text="{{ more_authors_show | escape }}"
+                data-authors-html="{{ more_authors_html | escape }}"
                 title="click to view {{more_authors_hide}}"
                 onclick="
                   var element = $(this);
                   element.attr('title', '');
-                  var more_authors_text = element.text() == '{{more_authors_hide}}' ? '{{more_authors_show}}' : '{{more_authors_hide}}';
+                  var show_more_authors = element.text() == '{{more_authors_hide}}';
+                  var more_authors_text = show_more_authors ? element.attr('data-authors-text') : '{{more_authors_hide}}';
                   var cursorPosition = 0;
                   var textAdder = setInterval(function(){
                     element.text(more_authors_text.substring(0, cursorPosition + 1));
                     if (++cursorPosition == more_authors_text.length){
                       clearInterval(textAdder);
+                      if (show_more_authors) { element.html(element.attr('data-authors-html')); }
                     }
                 }, '{{site.more_authors_animation_delay}}');
                 "
