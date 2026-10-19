@@ -216,6 +216,7 @@ main:focus { outline: none; }
   .author { font-size: 12px; color: var(--global-text-color-light); margin-bottom: 4px; }
   ol.bibliography li .author em.author-self { color: var(--global-text-color); font-style: normal; font-weight: 700; border-bottom: 0; }
   ol.bibliography li .author em.author-self.author-first { border-bottom: 1px solid; }
+  ol.bibliography li .author > span.more-authors:has(em.author-self) { border-bottom: 0; }
   .periodical { font-size: 12px; color: var(--global-text-color-light); }
   .publication-summary { margin: 12px 0 14px; font-size: 13px; line-height: 1.7; color: var(--academic-summary-color); }
   .publication-contribution {
