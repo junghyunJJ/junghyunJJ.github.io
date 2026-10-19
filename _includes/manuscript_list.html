@@ -12,7 +12,11 @@
         </div>
         <div class="publication-content" id="{{ work.id }}">
           <div class="title">{{ work.title | escape }}</div>
-          <div class="author">{{ work.authors | escape }}</div>
+          {% assign self_name = 'Junghyun Jung' %}
+          {% unless work.authors contains self_name %}{% assign self_name = 'J. Jung' %}{% endunless %}
+          {% assign first_author = work.authors | split: ',' | first | split: ' and ' | first | strip %}
+          {% capture self_author %}<em class="author-self{% if first_author == self_name %} author-first{% endif %}">{{ self_name }}</em>{% endcapture %}
+          <div class="author">{{ work.authors | escape | replace: self_name, self_author }}</div>
           {% if work.venue %}<div class="periodical">{{ work.venue | escape }}{% if work.preprint_date %} · {{ work.preprint_date | date: '%b %Y' }}{% endif %}</div>{% endif %}
           {% if work.paper_url or work.code_url %}
           <div class="links">
