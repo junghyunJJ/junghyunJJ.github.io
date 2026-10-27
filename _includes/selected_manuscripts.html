@@ -16,9 +16,15 @@
         {% if work.summary %}<p class="publication-summary">{{ work.summary | escape }}</p>{% endif %}
         {% if work.contribution %}<p class="publication-contribution"><span>My contribution</span>{{ work.contribution | escape }}</p>{% endif %}
         <div class="links">
+          {% if work.abstract %}<button type="button" class="abstract btn btn-sm z-depth-0" aria-expanded="false" aria-controls="{{ work.id }}-abstract">Abstract</button>{% endif %}
           {% if work.paper_url %}<a href="{{ work.paper_url | escape }}" class="btn btn-sm z-depth-0" role="button">Preprint</a>{% endif %}
           {% if work.code_url %}<a href="{{ work.code_url | escape }}" class="btn btn-sm z-depth-0" role="button">Code</a>{% endif %}
         </div>
+        {% if work.abstract %}
+        <div id="{{ work.id }}-abstract" class="abstract hidden">
+          <p>{{ work.abstract | escape }}</p>
+        </div>
+        {% endif %}
       </div>
     </div>
   </li>
