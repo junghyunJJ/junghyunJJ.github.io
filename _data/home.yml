@@ -16,6 +16,8 @@ research:
       - "Custom guardrails"
       - "Validation & repair"
     related_papers: []
+    related_preprints:
+      - pending-deepmast
     related_software: true
   - id: ehr-foundation-models
     label: "02"

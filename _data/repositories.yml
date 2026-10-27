@@ -4,12 +4,14 @@ github_users:
 github_repos:
   - name: junghyunJJ/DeepMAST
     title: DeepMAST
-    description: An evidence-guided multi-agent framework for spatial transcriptomics analysis, interpretation, and candidate drug target prioritization.
+    description: An evidence-governed multi-agent AI system that orchestrates spatial transcriptomics analysis from workflow execution to biological interpretation.
     resources:
       - label: Quick start
         url: https://github.com/junghyunJJ/DeepMAST#5-quick-start
       - label: Documentation
         url: https://github.com/junghyunJJ/DeepMAST#6-usage-in-detail
+      - label: Preprint
+        url: https://doi.org/10.64898/2026.10.22.760550
   - name: junghyunJJ/sgcp-rag
     title: SGCP-RAG
     description: A self-correcting, SNI-guided RAG system with LangGraph, pgvector, and MCP integration.

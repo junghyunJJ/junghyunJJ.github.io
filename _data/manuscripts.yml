@@ -11,10 +11,13 @@ ongoing:
     authors: "Junghyun Jung and Kyoung Jae Won"
     code_url: https://github.com/junghyunJJ/Degree-GEAR
   - id: pending-deepmast
-    status: In preparation
-    title: "DeepMAST: An Evidence-Governed Agent Harness for Literature-Grounded Interpretation and Drug-Target Prioritization in Spatial Transcriptomics"
-    authors: "Junghyun Jung, Tanyalak Parimon, et al."
+    title: "An evidence-governed agent harness for spatial transcriptomics prioritizes ICAM-1 as a target in lung fibrosis"
+    topic: "Evidence-governed agent harness"
+    authors: "Junghyun Jung, Tanyalak Parimon, Jason H. Moore, Peter Chen, Kyoung Jae Won"
+    paper_url: https://doi.org/10.64898/2026.10.22.760550
     code_url: https://github.com/junghyunJJ/DeepMAST
+    venue: bioRxiv
+    preprint_date: "2026-10-26"
   - id: pending-spix
     title: "SPIX: Superpixel-based multiscale framework for scalable spatial transcriptomics analysis"
     authors: "Hwisoo Choi, Hyobin Kim, Junghyun Jung, et al."
