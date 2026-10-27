@@ -1,0 +1,27 @@
+{% assign works = site.data.manuscripts.ongoing | concat: site.data.manuscripts.preprints | where: "selected", true %}
+{% if works.size > 0 %}
+<ol class="bibliography">
+  {% for work in works %}
+  <li>
+    <div class="row">
+      <div class="col-sm-2 preview"><img class="preview z-depth-1 rounded" src="{{ work.preview | prepend: '/assets/img/publication_preview/' | relative_url }}" alt="{{ work.preview_alt | escape }}" loading="lazy" width="600" height="480"></div>
+      <div id="{{ work.id }}" class="col-sm-8 publication-content">
+        {% if work.role %}<div class="publication-role">{{ work.role | escape }}</div>{% endif %}
+        <div class="title">{{ work.title | escape }}</div>
+        {% assign self_name = 'Junghyun Jung' %}
+        {% assign first_author = work.authors | split: ',' | first | split: ' and ' | first | strip %}
+        {% capture self_author %}<em class="author-self{% if first_author == self_name %} author-first{% endif %}">{{ self_name }}</em>{% endcapture %}
+        <div class="author">{{ work.authors | escape | replace: self_name, self_author }}</div>
+        <div class="periodical"><em>{{ work.venue | escape }}</em> {{ work.preprint_date | date: '%Y' }}</div>
+        {% if work.summary %}<p class="publication-summary">{{ work.summary | escape }}</p>{% endif %}
+        {% if work.contribution %}<p class="publication-contribution"><span>My contribution</span>{{ work.contribution | escape }}</p>{% endif %}
+        <div class="links">
+          {% if work.paper_url %}<a href="{{ work.paper_url | escape }}" class="btn btn-sm z-depth-0" role="button">Preprint</a>{% endif %}
+          {% if work.code_url %}<a href="{{ work.code_url | escape }}" class="btn btn-sm z-depth-0" role="button">Code</a>{% endif %}
+        </div>
+      </div>
+    </div>
+  </li>
+  {% endfor %}
+</ol>
+{% endif %}

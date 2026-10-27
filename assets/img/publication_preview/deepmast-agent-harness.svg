@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-labelledby="deepmast-title deepmast-desc">
+  <title id="deepmast-title">DeepMAST: an evidence-governed agent harness</title>
+  <desc id="deepmast-desc">Conceptual overview of DeepMAST. Spatial transcriptomics data and evidence resources, including literature and biological databases, feed agents built from task-specific skills and MCP-connected tools, which work within custom guardrails and a validation-driven repair loop. The harness returns biological interpretation, follow-up recommendations, and drug target prioritization. Spots and icons are illustrative rather than measured results.</desc>
+  <defs>
+    <marker id="deepmast-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#a4c5b2" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="598" height="478" rx="20" fill="#18221d" stroke="#384e40" stroke-width="2"/>
+  <g font-family="system-ui, sans-serif">
+    <text x="26" y="49" fill="#e8ece6" font-size="34" font-weight="600">DeepMAST</text>
+    <text x="26" y="80" fill="#a8b4ad" font-size="24">Evidence-governed agent harness</text>
+    <rect x="24" y="102" width="552" height="111" rx="12" fill="#213028" stroke="#384e40"/>
+    <path d="M300 118V197" stroke="#384e40"/>
+    <text x="42" y="134" fill="#a4c5b2" font-size="26">Spatial data</text>
+    <text x="322" y="134" fill="#8eb7c5" font-size="26">Evidence</text>
+    <g fill="#a4c5b2">
+      <circle cx="81" cy="152" r="3.4"/><circle cx="92" cy="152" r="3.4"/><circle cx="103" cy="152" r="3.4"/><circle cx="53.5" cy="161.5" r="3.4"/><circle cx="64.5" cy="161.5" r="3.4"/><circle cx="75.5" cy="161.5" r="3.4"/><circle cx="86.5" cy="161.5" r="3.4"/><circle cx="97.5" cy="161.5" r="3.4"/><circle cx="108.5" cy="161.5" r="3.4"/><circle cx="48" cy="171" r="3.4"/><circle cx="59" cy="171" r="3.4"/><circle cx="70" cy="171" r="3.4"/><circle cx="81" cy="171" r="3.4"/><circle cx="92" cy="171" r="3.4"/><circle cx="103" cy="171" r="3.4"/><circle cx="53.5" cy="180.5" r="3.4"/><circle cx="64.5" cy="180.5" r="3.4"/><circle cx="75.5" cy="180.5" r="3.4"/><circle cx="86.5" cy="180.5" r="3.4"/><circle cx="97.5" cy="180.5" r="3.4"/><circle cx="59" cy="190" r="3.4"/><circle cx="70" cy="190" r="3.4"/><circle cx="81" cy="190" r="3.4"/><circle cx="92" cy="190" r="3.4"/><circle cx="86.5" cy="199.5" r="3.4"/>
+    </g>
+    <g fill="#8eb7c5">
+      <circle cx="114" cy="152" r="3.4"/><circle cx="125" cy="152" r="3.4"/><circle cx="119.5" cy="161.5" r="3.4"/><circle cx="130.5" cy="161.5" r="3.4"/><circle cx="141.5" cy="161.5" r="3.4"/><circle cx="114" cy="171" r="3.4"/><circle cx="125" cy="171" r="3.4"/><circle cx="136" cy="171" r="3.4"/><circle cx="147" cy="171" r="3.4"/><circle cx="158" cy="171" r="3.4"/><circle cx="108.5" cy="180.5" r="3.4"/><circle cx="119.5" cy="180.5" r="3.4"/><circle cx="130.5" cy="180.5" r="3.4"/><circle cx="141.5" cy="180.5" r="3.4"/><circle cx="152.5" cy="180.5" r="3.4"/><circle cx="163.5" cy="180.5" r="3.4"/><circle cx="103" cy="190" r="3.4"/><circle cx="114" cy="190" r="3.4"/><circle cx="125" cy="190" r="3.4"/><circle cx="136" cy="190" r="3.4"/><circle cx="147" cy="190" r="3.4"/><circle cx="158" cy="190" r="3.4"/><circle cx="97.5" cy="199.5" r="3.4"/><circle cx="108.5" cy="199.5" r="3.4"/><circle cx="119.5" cy="199.5" r="3.4"/>
+    </g>
+    <g fill="#b4a6cb">
+      <circle cx="202" cy="152" r="3.4"/><circle cx="213" cy="152" r="3.4"/><circle cx="224" cy="152" r="3.4"/><circle cx="163.5" cy="161.5" r="3.4"/><circle cx="174.5" cy="161.5" r="3.4"/><circle cx="185.5" cy="161.5" r="3.4"/><circle cx="196.5" cy="161.5" r="3.4"/><circle cx="207.5" cy="161.5" r="3.4"/><circle cx="218.5" cy="161.5" r="3.4"/><circle cx="169" cy="171" r="3.4"/><circle cx="180" cy="171" r="3.4"/><circle cx="191" cy="171" r="3.4"/><circle cx="202" cy="171" r="3.4"/><circle cx="213" cy="171" r="3.4"/><circle cx="174.5" cy="180.5" r="3.4"/><circle cx="185.5" cy="180.5" r="3.4"/><circle cx="196.5" cy="180.5" r="3.4"/><circle cx="207.5" cy="180.5" r="3.4"/><circle cx="169" cy="190" r="3.4"/><circle cx="180" cy="190" r="3.4"/><circle cx="191" cy="190" r="3.4"/><circle cx="202" cy="190" r="3.4"/><circle cx="185.5" cy="199.5" r="3.4"/><circle cx="196.5" cy="199.5" r="3.4"/>
+    </g>
+    <g fill="#d7bc87">
+      <circle cx="229.5" cy="161.5" r="3.4"/><circle cx="240.5" cy="161.5" r="3.4"/><circle cx="251.5" cy="161.5" r="3.4"/><circle cx="262.5" cy="161.5" r="3.4"/><circle cx="224" cy="171" r="3.4"/><circle cx="235" cy="171" r="3.4"/><circle cx="246" cy="171" r="3.4"/><circle cx="257" cy="171" r="3.4"/><circle cx="268" cy="171" r="3.4"/><circle cx="218.5" cy="180.5" r="3.4"/><circle cx="229.5" cy="180.5" r="3.4"/><circle cx="240.5" cy="180.5" r="3.4"/><circle cx="251.5" cy="180.5" r="3.4"/><circle cx="262.5" cy="180.5" r="3.4"/><circle cx="273.5" cy="180.5" r="3.4"/><circle cx="213" cy="190" r="3.4"/><circle cx="224" cy="190" r="3.4"/><circle cx="235" cy="190" r="3.4"/><circle cx="246" cy="190" r="3.4"/><circle cx="257" cy="190" r="3.4"/><circle cx="207.5" cy="199.5" r="3.4"/><circle cx="218.5" cy="199.5" r="3.4"/><circle cx="229.5" cy="199.5" r="3.4"/><circle cx="240.5" cy="199.5" r="3.4"/>
+    </g>
+    <g fill="none" stroke="#8eb7c5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M332 156Q348 150 363 157V201Q348 194 332 199Z"/>
+      <path d="M371 157Q386 150 402 156V199Q386 194 371 201Z"/>
+      <path d="M339 167Q348 164 356 168M339 177Q348 174 356 178M339 187Q348 184 356 188"/>
+      <path d="M378 168Q386 164 395 167M378 178Q386 174 395 177M378 188Q386 184 395 187"/>
+    </g>
+    <g fill="none" stroke="#b4a6cb" stroke-width="2.5">
+      <ellipse cx="452" cy="157" rx="22" ry="7"/>
+      <path d="M430 157V194A22 7 0 0 0 474 194V157M430 170A22 7 0 0 0 474 170M430 182A22 7 0 0 0 474 182"/>
+    </g>
+    <g stroke="#d7bc87" stroke-width="2">
+      <path d="M508 166L538 155M508 166L547 187M508 166L516 196M538 155L547 187M516 196L547 187"/>
+    </g>
+    <g fill="#d7bc87">
+      <circle cx="508" cy="166" r="6"/><circle cx="538" cy="155" r="4.5"/>
+      <circle cx="547" cy="187" r="5.5"/><circle cx="516" cy="196" r="4.5"/>
+    </g>
+    <g fill="none" stroke="#a4c5b2" stroke-width="2" marker-end="url(#deepmast-arrow)">
+      <path d="M162 214V241"/>
+      <path d="M438 214V241"/>
+    </g>
+    <rect x="24" y="245" width="552" height="52" rx="12" fill="#2b4335" stroke="#719880" stroke-width="1.5"/>
+    <g fill="none" stroke="#a4c5b2" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M47 266A12 12 0 0 1 69 264" marker-end="url(#deepmast-arrow)"/>
+      <path d="M69 276A12 12 0 0 1 47 278" marker-end="url(#deepmast-arrow)"/>
+    </g>
+    <text x="318" y="279" text-anchor="middle" fill="#e8ece6" font-size="25" font-weight="500">Skills + MCP + Guardrail + Loop</text>
+    <g fill="none" stroke="#719880" stroke-width="2" marker-end="url(#deepmast-arrow)">
+      <path d="M108 298V340"/>
+      <path d="M300 298V340"/>
+      <path d="M492 298V340"/>
+    </g>
+    <g fill="#213028" stroke="#384e40">
+      <rect x="24" y="344" width="168" height="104" rx="12"/>
+      <rect x="216" y="344" width="168" height="104" rx="12"/>
+      <rect x="408" y="344" width="168" height="104" rx="12"/>
+    </g>
+    <g fill="none" stroke="#a4c5b2" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="78" y="356" width="40" height="50" rx="4"/>
+      <path d="M86 368H110M86 378H110M86 388H98"/>
+      <circle cx="122" cy="392" r="12" fill="#213028"/>
+      <path d="M131 401L141 411M117 397V392M122 397V387M127 397V393"/>
+    </g>
+    <g fill="none" stroke="#8eb7c5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="280" y="358" width="40" height="50" rx="4"/>
+      <rect x="290" y="353" width="20" height="9" rx="3" fill="#213028"/>
+      <path d="M286 374L289 377L294 371M286 387L289 390L294 384M286 400L289 403L294 397"/>
+      <path d="M300 374H313M300 387H313M300 400H309"/>
+    </g>
+    <g fill="none" stroke="#d7bc87" stroke-width="2.5">
+      <circle cx="482" cy="381" r="19"/><circle cx="482" cy="381" r="9"/>
+      <path d="M482 354V362M482 400V408M455 381H463M501 381H509"/>
+    </g>
+    <circle cx="482" cy="381" r="3" fill="#d7bc87"/>
+    <circle cx="511" cy="402" r="11" fill="#2b4335" stroke="#a4c5b2" stroke-width="2"/>
+    <path d="M506 402L510 406L517 398" fill="none" stroke="#a4c5b2" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g text-anchor="middle" fill="#e8ece6" font-size="21">
+      <text x="108" y="435">Interpretation</text><text x="300" y="435">Follow-up</text><text x="492" y="435">Drug targets</text>
+    </g>
+  </g>
+</svg>

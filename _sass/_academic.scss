@@ -235,6 +235,7 @@ main:focus { outline: none; }
   .row > .preview, img.preview { max-width: 100%; }
   img.preview { width: 100%; height: auto; aspect-ratio: 5 / 4; border-radius: 10px; background: transparent; }
 }
+#selected-work ol.bibliography:not(:last-child) { margin-bottom: 0; li:last-child { border-bottom: 1px solid var(--global-divider-color); } }
 
 @media (max-width: 991px) {
   .hero { gap: 36px; grid-template-columns: minmax(0, 1fr) 220px; }

@@ -13,6 +13,12 @@ ongoing:
   - id: pending-deepmast
     title: "An evidence-governed agent harness for spatial transcriptomics prioritizes ICAM-1 as a target in lung fibrosis"
     topic: "Evidence-governed agent harness"
+    selected: true
+    preview: deepmast-agent-harness.svg
+    preview_alt: "DeepMAST: spatial transcriptomics data and evidence resources feed agents built from skills and MCP tools, run within guardrails and a validation loop, which return biological interpretation, follow-up recommendations, and drug target prioritization."
+    role: "First author"
+    contribution: "Designed the system and built all of its agents."
+    summary: "Developed DeepMAST, an evidence-governed multi-agent system that runs spatial transcriptomics workflows and grounds biological interpretation in literature and curated evidence, nominating ICAM-1 as a therapeutic target in idiopathic pulmonary fibrosis."
     authors: "Junghyun Jung, Tanyalak Parimon, Jason H. Moore, Peter Chen, Kyoung Jae Won"
     paper_url: https://doi.org/10.64898/2026.10.22.760550
     code_url: https://github.com/junghyunJJ/DeepMAST
