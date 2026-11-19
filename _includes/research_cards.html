@@ -1,8 +1,9 @@
 <div class="research-grid{% if include.detailed %} research-detailed{% endif %}">
-  {% for theme in site.data.home.research %}
+  {% assign research_themes = include.themes | default: site.data.home.research %}
+  {% for theme in research_themes %}
   <article class="research-card"{% if include.detailed %} id="{{ theme.id }}"{% endif %}>
     {% if include.detailed %}<div class="research-copy">{% endif %}
-    <span class="research-number">{{ theme.label }}</span>
+    <span class="research-number">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
     <h3>{{ theme.title }}</h3>
     {% if include.detailed and theme.question %}<p class="research-question">{{ theme.question | escape }}</p>{% endif %}
     <p class="research-summary">{{ theme.description }}</p>
